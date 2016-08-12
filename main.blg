@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: natbib.bst
+Database file #1: main.bib
+Warning--empty note in Andrews2016-at
+Warning--empty note in Campbell2016-es
+Warning--empty note in Campbell2015-nj
+Warning--empty note in Hicks2015-qy
+Warning--empty note in Kiselev2016-fu
+Warning--empty note in Korthauer2015-wg
+Warning--empty note in Tung2016-jy
+You've used 83 entries,
+            2378 wiz_defined-function locations,
+            1026 strings with 23191 characters,
+and the built_in function-call counts, 43551 in all, are:
+= -- 3657
+> -- 3573
+< -- 31
++ -- 1089
+- -- 1089
+* -- 4416
+:= -- 8074
+add.period$ -- 351
+call.type$ -- 83
+change.case$ -- 512
+chr.to.int$ -- 83
+cite$ -- 90
+duplicate$ -- 1483
+empty$ -- 2291
+format.name$ -- 1204
+if$ -- 8228
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 67
+newline$ -- 400
+num.names$ -- 332
+pop$ -- 520
+preamble$ -- 1
+purify$ -- 514
+quote$ -- 0
+skip$ -- 1004
+stack$ -- 0
+substring$ -- 2102
+swap$ -- 261
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 741
+warning$ -- 7
+while$ -- 331
+width$ -- 0
+write$ -- 1014
+(There were 7 warnings)

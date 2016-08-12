@@ -1,0 +1,566 @@
+\begin{thebibliography}{}
+
+\bibitem[Allaire {\em et~al.}(2016)Allaire, Cheng, Xie, McPherson, Chang,
+  Allen, Wickham, Atkins, and Hyndman]{Allaire2016-dl}
+Allaire, J.~J., Cheng, J., Xie, Y., McPherson, J., Chang, W., Allen, J.,
+  Wickham, H., Atkins, A., and Hyndman, R. (2016).
+\newblock {rmarkdown: Dynamic Documents for R}.
+
+\bibitem[Amir {\em et~al.}(2013)Amir, Davis, Tadmor, Simonds, Levine, Bendall,
+  Shenfeld, Krishnaswamy, Nolan, and Pe'er]{Amir2013-nf}
+Amir, E.-A.~D., Davis, K.~L., Tadmor, M.~D., Simonds, E.~F., Levine, J.~H.,
+  Bendall, S.~C., Shenfeld, D.~K., Krishnaswamy, S., Nolan, G.~P., and Pe'er,
+  D. (2013).
+\newblock {viSNE enables visualization of high dimensional single-cell data and
+  reveals phenotypic heterogeneity of leukemia}.
+\newblock {\em Nature biotechnology\/}, {\bf 31}(6), 545--552.
+
+\bibitem[Anders and Huber(2010)Anders and Huber]{Anders2010-kv}
+Anders, S. and Huber, W. (2010).
+\newblock {Differential expression analysis for sequence count data}.
+\newblock {\em Genome biology\/}, {\bf 11}(10), R106.
+
+\bibitem[Anders {\em et~al.}(2015)Anders, Pyl, and Huber]{Anders2015-wf}
+Anders, S., Pyl, P.~T., and Huber, W. (2015).
+\newblock {HTSeq--a Python framework to work with high-throughput sequencing
+  data}.
+\newblock {\em Bioinformatics\/}, {\bf 31}(2), 166--169.
+
+\bibitem[Andrews and Hemberg(2016)Andrews and Hemberg]{Andrews2016-at}
+Andrews, T.~S. and Hemberg, M. (2016).
+\newblock {Modelling dropouts allows for unbiased identification of marker
+  genes in scRNASeq experiments}.
+
+\bibitem[Angerer {\em et~al.}(2015)Angerer, Haghverdi, B{\"{u}}ttner, Theis,
+  Marr, and Buettner]{Angerer2015-sw}
+Angerer, P., Haghverdi, L., B{\"{u}}ttner, M., Theis, F.~J., Marr, C., and
+  Buettner, F. (2015).
+\newblock {destiny: diffusion maps for large-scale single-cell data in R}.
+\newblock {\em Bioinformatics\/}.
+
+\bibitem[Bache and Wickham(2014)Bache and Wickham]{Bache2014-sa}
+Bache, S.~M. and Wickham, H. (2014).
+\newblock {Magrittr: A forward-pipe operator for R}.
+\newblock {\em R package version\/}.
+
+\bibitem[Bacher and Kendziorski(2016)Bacher and Kendziorski]{Bacher2016-ay}
+Bacher, R. and Kendziorski, C. (2016).
+\newblock {Design and computational analysis of single-cell RNA-sequencing
+  experiments}.
+\newblock {\em Genome biology\/}, {\bf 17}(1), 1--14.
+
+\bibitem[Bendall {\em et~al.}(2014)Bendall, Davis, Amir, Tadmor, Simonds, Chen,
+  Shenfeld, Nolan, and Pe'er]{Bendall2014-gf}
+Bendall, S.~C., Davis, K.~L., Amir, E.-A.~D., Tadmor, M.~D., Simonds, E.~F.,
+  Chen, T.~J., Shenfeld, D.~K., Nolan, G.~P., and Pe'er, D. (2014).
+\newblock {Single-cell trajectory detection uncovers progression and regulatory
+  coordination in human B cell development}.
+\newblock {\em Cell\/}, {\bf 157}(3), 714--725.
+
+\bibitem[Bengtsson(2016)Bengtsson]{Bengtsson2016-tn}
+Bengtsson, H. (2016).
+\newblock {matrixStats: Functions that Apply to Rows and Columns of Matrices
+  (and to Vectors)}.
+
+\bibitem[Bray {\em et~al.}(2016)Bray, Pimentel, Melsted, and
+  Pachter]{Bray2016-pj}
+Bray, N.~L., Pimentel, H., Melsted, P., and Pachter, L. (2016).
+\newblock {Near-optimal probabilistic RNA-seq quantification}.
+\newblock {\em Nature biotechnology\/}.
+
+\bibitem[Brennecke {\em et~al.}(2013)Brennecke, Anders, Kim, Ko\l{}odziejczyk,
+  Zhang, Proserpio, Baying, Benes, Teichmann, Marioni, and
+  Heisler]{Brennecke2013-zv}
+Brennecke, P., Anders, S., Kim, J.~K., Ko\l{}odziejczyk, A.~A., Zhang, X.,
+  Proserpio, V., Baying, B., Benes, V., Teichmann, S.~A., Marioni, J.~C., and
+  Heisler, M.~G. (2013).
+\newblock {Accounting for technical noise in single-cell RNA-seq experiments}.
+\newblock {\em Nature methods\/}, {\bf 10}(11), 1093--1095.
+
+\bibitem[Buettner {\em et~al.}(2015)Buettner, Natarajan, Paolo~Casale,
+  Proserpio, Scialdone, Theis, Teichmann, Marioni, and Stegle]{Buettner2015-jg}
+Buettner, F., Natarajan, K.~N., Paolo~Casale, F., Proserpio, V., Scialdone, A.,
+  Theis, F.~J., Teichmann, S.~A., Marioni, J.~C., and Stegle, O. (2015).
+\newblock {Computational analysis of cell-to-cell heterogeneity in single-cell
+  RNA-sequencing data reveals hidden subpopulations of cells}.
+\newblock {\em Nature biotechnology\/}, {\bf 33}(2), 155--160.
+
+\bibitem[Bullard {\em et~al.}(2010)Bullard, Purdom, Hansen, and
+  Dudoit]{Bullard2010-ui}
+Bullard, J.~H., Purdom, E.~A., Hansen, K.~D., and Dudoit, S. (2010).
+\newblock {Evaluation of statistical methods for normalization and differential
+  expression in mRNA-Seq experiments}.
+\newblock {\em BMC bioinformatics\/}, {\bf Paper 247}, 1--62.
+
+\bibitem[Campbell and Yau(2016)Campbell and Yau]{Campbell2016-es}
+Campbell, K. and Yau, C. (2016).
+\newblock {Ouija: Incorporating prior knowledge in single-cell trajectory
+  learning using Bayesian nonlinear factor analysis}.
+
+\bibitem[Campbell {\em et~al.}(2015)Campbell, Ponting, and
+  Webber]{Campbell2015-nj}
+Campbell, K., Ponting, C.~P., and Webber, C. (2015).
+\newblock {Laplacian eigenmaps and principal curves for high resolution
+  pseudotemporal ordering of single-cell RNA-seq profiles}.
+
+\bibitem[Chang(2015)Chang]{Chang2015-bn}
+Chang, W. (2015).
+\newblock {shinydashboard: Create Dashboards with 'Shiny'}.
+
+\bibitem[Chang {\em et~al.}(2016)Chang, Cheng, Allaire, Xie, and
+  McPherson]{Chang2016-of}
+Chang, W., Cheng, J., Allaire, J.~J., Xie, Y., and McPherson, J. (2016).
+\newblock {shiny: Web Application Framework for R}.
+
+\bibitem[Chikina {\em et~al.}(2015)Chikina, Zaslavsky, and
+  Sealfon]{Chikina2015-lq}
+Chikina, M., Zaslavsky, E., and Sealfon, S.~C. (2015).
+\newblock {CellCODE: a robust latent variable approach to differential
+  expression analysis for heterogeneous cell populations}.
+\newblock {\em Bioinformatics\/}, {\bf 31}(10), 1584--1591.
+
+\bibitem[Couture-Beil(2014)Couture-Beil]{Couture-Beil2014-kk}
+Couture-Beil, A. (2014).
+\newblock {rjson: JSON for R}.
+
+\bibitem[Delmans and Hemberg(2016)Delmans and Hemberg]{Delmans2016-qc}
+Delmans, M. and Hemberg, M. (2016).
+\newblock {Discrete distributional differential expression (D(3)E) - a tool for
+  gene expression analysis of single-cell RNA-seq data}.
+\newblock {\em BMC bioinformatics\/}, {\bf 17}(1), 110.
+
+\bibitem[Ding {\em et~al.}(2015)Ding, Zheng, Zhu, Li, Jia, Ai, Wildberg, and
+  Wang]{Ding2015-jv}
+Ding, B., Zheng, L., Zhu, Y., Li, N., Jia, H., Ai, R., Wildberg, A., and Wang,
+  W. (2015).
+\newblock {Normalization and noise reduction for single cell RNA-seq
+  experiments}.
+\newblock {\em Bioinformatics\/}, {\bf 31}(13), 2225--2227.
+
+\bibitem[Dowle {\em et~al.}(2015)Dowle, Srinivasan, Short, and
+  Lianoglou]{Dowle2015-zc}
+Dowle, M., Srinivasan, A., Short, T., and Lianoglou, S. (2015).
+\newblock {data.table: Extension of Data.frame}.
+
+\bibitem[Durinck {\em et~al.}(2005)Durinck, Moreau, Kasprzyk, Davis, De~Moor,
+  Brazma, and Huber]{Durinck2005-yz}
+Durinck, S., Moreau, Y., Kasprzyk, A., Davis, S., De~Moor, B., Brazma, A., and
+  Huber, W. (2005).
+\newblock {BioMart and Bioconductor: a powerful link between biological
+  databases and microarray data analysis}.
+\newblock {\em Bioinformatics\/}, {\bf 21}(16), 3439--3440.
+
+\bibitem[Fan {\em et~al.}(2016)Fan, Salathia, Liu, Kaeser, Yung, Herman, Kaper,
+  Fan, Zhang, Chun, and Kharchenko]{Fan2016-wh}
+Fan, J., Salathia, N., Liu, R., Kaeser, G.~E., Yung, Y.~C., Herman, J.~L.,
+  Kaper, F., Fan, J.-B., Zhang, K., Chun, J., and Kharchenko, P.~V. (2016).
+\newblock {Characterizing transcriptional heterogeneity through pathway and
+  gene set overdispersion analysis}.
+\newblock {\em Nature methods\/}, {\bf 13}(3), 241--244.
+
+\bibitem[Filzmoser and Gschwandtner(2015)Filzmoser and
+  Gschwandtner]{Filzmoser2015-kx}
+Filzmoser, P. and Gschwandtner, M. (2015).
+\newblock {mvoutlier: Multivariate outlier detection based on robust methods}.
+
+\bibitem[Finak {\em et~al.}(2015)Finak, McDavid, Yajima, Deng, Gersuk, Shalek,
+  Slichter, Miller, McElrath, Prlic, Linsley, and Gottardo]{Finak2015-rd}
+Finak, G., McDavid, A., Yajima, M., Deng, J., Gersuk, V., Shalek, A.~K.,
+  Slichter, C.~K., Miller, H.~W., McElrath, M.~J., Prlic, M., Linsley, P.~S.,
+  and Gottardo, R. (2015).
+\newblock {MAST: a flexible statistical framework for assessing transcriptional
+  changes and characterizing heterogeneity in single-cell RNA sequencing data}.
+\newblock {\em Genome biology\/}, {\bf 16}, 278.
+
+\bibitem[Fischer and Pau(2016)Fischer and Pau]{Fischer2016-me}
+Fischer, B. and Pau, G. (2016).
+\newblock {rhdf5: HDF5 interface to R}.
+
+\bibitem[Garnier(2016)Garnier]{Garnier2016-hk}
+Garnier, S. (2016).
+\newblock {viridis: Default Color Maps from 'matplotlib'}.
+
+\bibitem[Gr{\"{u}}n and van Oudenaarden(2015)Gr{\"{u}}n and van
+  Oudenaarden]{Grun2015-xi}
+Gr{\"{u}}n, D. and van Oudenaarden, A. (2015).
+\newblock {Design and Analysis of Single-Cell Sequencing Experiments}.
+\newblock {\em Cell\/}, {\bf 163}(4), 799--810.
+
+\bibitem[Gr{\"{u}}n {\em et~al.}(2015)Gr{\"{u}}n, Lyubimova, Kester, Wiebrands,
+  Basak, Sasaki, Clevers, and van Oudenaarden]{Grun2015-fy}
+Gr{\"{u}}n, D., Lyubimova, A., Kester, L., Wiebrands, K., Basak, O., Sasaki,
+  N., Clevers, H., and van Oudenaarden, A. (2015).
+\newblock {Single-cell messenger RNA sequencing reveals rare intestinal cell
+  types}.
+\newblock {\em Nature\/}, {\bf 525}(7568), 251--255.
+
+\bibitem[Guo {\em et~al.}(2015)Guo, Wang, Steven~Potter, Whitsett, and
+  Xu]{Guo2015-wx}
+Guo, M., Wang, H., Steven~Potter, S., Whitsett, J.~A., and Xu, Y. (2015).
+\newblock {SINCERA: A Pipeline for Single-Cell RNA-Seq Profiling Analysis}.
+\newblock {\em PLoS computational biology\/}, {\bf 11}(11), e1004575.
+
+\bibitem[Haghverdi {\em et~al.}(2015)Haghverdi, Buettner, and
+  Theis]{Haghverdi2015-fm}
+Haghverdi, L., Buettner, F., and Theis, F.~J. (2015).
+\newblock {Diffusion maps for high-dimensional single-cell analysis of
+  differentiation data}.
+\newblock {\em Bioinformatics\/}.
+
+\bibitem[Haghverdi {\em et~al.}(2016)Haghverdi, B{\"{u}}ttner, Alexander~Wolf,
+  Buettner, and Theis]{Haghverdi2016-is}
+Haghverdi, L., B{\"{u}}ttner, M., Alexander~Wolf, F., Buettner, F., and Theis,
+  F.~J. (2016).
+\newblock {Diffusion pseudotime robustly reconstructs lineage branching}.
+\newblock {\em bioRxiv\/}.
+
+\bibitem[Hebenstreit and Teichmann(2011)Hebenstreit and
+  Teichmann]{Hebenstreit2011-ig}
+Hebenstreit, D. and Teichmann, S.~A. (2011).
+\newblock {Analysis and simulation of gene expression profiles in pure and
+  mixed cell populations}.
+\newblock {\em Physical biology\/}, {\bf 8}(3), 035013.
+
+\bibitem[Hicks {\em et~al.}(2015)Hicks, Teng, and Irizarry]{Hicks2015-qy}
+Hicks, S.~C., Teng, M., and Irizarry, R.~A. (2015).
+\newblock {On the widespread and critical impact of systematic bias and batch
+  effects in single-cell RNA-Seq data}.
+
+\bibitem[Huber {\em et~al.}(2015)Huber, Carey, Gentleman, Anders, Carlson,
+  Carvalho, Bravo, Davis, Gatto, Girke, Gottardo, Hahne, Hansen, Irizarry,
+  Lawrence, Love, MacDonald, Obenchain, Ole\'{s}, Pag\`{e}s, Reyes, Shannon,
+  Smyth, Tenenbaum, Waldron, and Morgan]{Huber2015-en}
+Huber, W., Carey, V.~J., Gentleman, R., Anders, S., Carlson, M., Carvalho,
+  B.~S., Bravo, H.~C., Davis, S., Gatto, L., Girke, T., Gottardo, R., Hahne,
+  F., Hansen, K.~D., Irizarry, R.~A., Lawrence, M., Love, M.~I., MacDonald, J.,
+  Obenchain, V., Ole\'{s}, A.~K., Pag\`{e}s, H., Reyes, A., Shannon, P., Smyth,
+  G.~K., Tenenbaum, D., Waldron, L., and Morgan, M. (2015).
+\newblock {Orchestrating high-throughput genomic analysis with Bioconductor}.
+\newblock {\em Nature methods\/}, {\bf 12}(2), 115--121.
+
+\bibitem[Ilicic {\em et~al.}(2016)Ilicic, Kim, Kolodziejczyk, Bagger, McCarthy,
+  Marioni, and Teichmann]{Ilicic2016-dm}
+Ilicic, T., Kim, J.~K., Kolodziejczyk, A.~A., Bagger, F.~O., McCarthy, D.~J.,
+  Marioni, J.~C., and Teichmann, S.~A. (2016).
+\newblock {Classification of low quality cells from single-cell RNA-seq data}.
+\newblock {\em Genome biology\/}, {\bf 17}(1), 29.
+
+\bibitem[Juli\'{a} {\em et~al.}(2015)Juli\'{a}, Telenti, and
+  Rausell]{Julia2015-jt}
+Juli\'{a}, M., Telenti, A., and Rausell, A. (2015).
+\newblock {Sincell: an R/Bioconductor package for statistical assessment of
+  cell-state hierarchies from single-cell RNA-seq}.
+\newblock {\em Bioinformatics\/}, {\bf 31}(20), 3380--3382.
+
+\bibitem[Kanitz {\em et~al.}(2015)Kanitz, Gypas, Gruber, Gruber, Martin, and
+  Zavolan]{Kanitz2015-wp}
+Kanitz, A., Gypas, F., Gruber, A.~J., Gruber, A.~R., Martin, G., and Zavolan,
+  M. (2015).
+\newblock {Comparative assessment of methods for the computational inference of
+  transcript isoform abundance from RNA-seq data}.
+\newblock {\em Genome biology\/}, {\bf 16}(1), 150.
+
+\bibitem[Kharchenko {\em et~al.}(2014)Kharchenko, Silberstein, and
+  Scadden]{Kharchenko2014-rx}
+Kharchenko, P.~V., Silberstein, L., and Scadden, D.~T. (2014).
+\newblock {Bayesian approach to single-cell differential expression analysis}.
+\newblock {\em Nature methods\/}, {\bf 11}(7), 740--742.
+
+\bibitem[Kim {\em et~al.}(2015)Kim, Kolodziejczyk, Illicic, Teichmann, and
+  Marioni]{Kim2015-xd}
+Kim, J.~K., Kolodziejczyk, A.~A., Illicic, T., Teichmann, S.~A., and Marioni,
+  J.~C. (2015).
+\newblock {Characterizing noise structure in single-cell RNA-seq distinguishes
+  genuine from technical stochastic allelic expression}.
+\newblock {\em Nature communications\/}, {\bf 6}.
+
+\bibitem[Kiselev {\em et~al.}(2016)Kiselev, Kirschner, Schaub, Andrews,
+  Chandra, Natarajan, Reik, Barahona, Green, and Hemberg]{Kiselev2016-fu}
+Kiselev, V.~Y., Kirschner, K., Schaub, M.~T., Andrews, T., Chandra, T.,
+  Natarajan, K.~N., Reik, W., Barahona, M., Green, A.~R., and Hemberg, M.
+  (2016).
+\newblock {SC3 - consensus clustering of single-cell RNA-Seq data}.
+
+\bibitem[Korthauer {\em et~al.}(2015)Korthauer, Chu, Newton, Li, Thomson,
+  Stewart, and Kendziorski]{Korthauer2015-wg}
+Korthauer, K.~D., Chu, L.-F., Newton, M.~A., Li, Y., Thomson, J., Stewart, R.,
+  and Kendziorski, C. (2015).
+\newblock {scDD: A statistical approach for identifying differential
+  distributions in single-cell RNA-seq experiments}.
+
+\bibitem[Krijthe(2015)Krijthe]{Krijthe2015-is}
+Krijthe, J. (2015).
+\newblock {Rtsne: T-Distributed Stochastic Neighbor Embedding using Barnes-Hut
+  Implementation}.
+\newblock {\em 0.10, URL http://CRAN. R-project. org/package= Rtsne\/}.
+
+\bibitem[Leek(2014)Leek]{Leek2014-nu}
+Leek, J.~T. (2014).
+\newblock {svaseq: removing batch effects and other unwanted noise from
+  sequencing data}.
+\newblock {\em Nucleic acids research\/}, {\bf 42}(21), 0.
+
+\bibitem[Leek and Storey(2007)Leek and Storey]{Leek2007-rg}
+Leek, J.~T. and Storey, J.~D. (2007).
+\newblock {Capturing heterogeneity in gene expression studies by surrogate
+  variable analysis}.
+\newblock {\em PLoS genetics\/}, {\bf 3}(9), 1724--1735.
+
+\bibitem[Leek {\em et~al.}(2010)Leek, Scharpf, Bravo, Simcha, Langmead,
+  Johnson, Geman, Baggerly, and Irizarry]{Leek2010-nq}
+Leek, J.~T., Scharpf, R.~B., Bravo, H.~C., Simcha, D., Langmead, B., Johnson,
+  W.~E., Geman, D., Baggerly, K., and Irizarry, R.~A. (2010).
+\newblock {Tackling the widespread and critical impact of batch effects in
+  high-throughput data}.
+\newblock {\em Nature Publishing Group\/}, {\bf 11}(10), 733--739.
+
+\bibitem[Leng {\em et~al.}(2015)Leng, Chu, Barry, Li, Choi, Li, Jiang, Stewart,
+  Thomson, and Kendziorski]{Leng2015-ji}
+Leng, N., Chu, L.-F., Barry, C., Li, Y., Choi, J., Li, X., Jiang, P., Stewart,
+  R.~M., Thomson, J.~A., and Kendziorski, C. (2015).
+\newblock {Oscope identifies oscillatory genes in unsynchronized single-cell
+  RNA-seq experiments}.
+\newblock {\em Nature methods\/}, {\bf 12}(10), 947--950.
+
+\bibitem[Liao {\em et~al.}(2014)Liao, Smyth, and Shi]{Liao2014-ui}
+Liao, Y., Smyth, G.~K., and Shi, W. (2014).
+\newblock {featureCounts: an efficient general purpose program for assigning
+  sequence reads to genomic features}.
+\newblock {\em Bioinformatics\/}, {\bf 30}(7), 923--930.
+
+\bibitem[Lun {\em et~al.}(2016)Lun, Bach, and Marioni]{Lun2016-sk}
+Lun, A. T.~L., Bach, K., and Marioni, J.~C. (2016).
+\newblock {Pooling across cells to normalize single-cell RNA sequencing data
+  with many zero counts}.
+\newblock {\em Genome biology\/}, {\bf 17}(1), 75.
+
+\bibitem[Maaten(2009)Maaten]{Maaten2009-vy}
+Maaten, L. (2009).
+\newblock {Learning a parametric embedding by preserving local structure}.
+\newblock In {\em {International Conference on Artificial Intelligence and
+  Statistics}\/}, pages 384--391. machinelearning.wustl.edu.
+
+\bibitem[Macosko {\em et~al.}(2015)Macosko, Basu, Satija, Nemesh, Shekhar,
+  Goldman, Tirosh, Bialas, Kamitaki, Martersteck, Trombetta, Weitz, Sanes,
+  Shalek, Regev, and McCarroll]{Macosko2015-vt}
+Macosko, E.~Z., Basu, A., Satija, R., Nemesh, J., Shekhar, K., Goldman, M.,
+  Tirosh, I., Bialas, A.~R., Kamitaki, N., Martersteck, E.~M., Trombetta,
+  J.~J., Weitz, D.~A., Sanes, J.~R., Shalek, A.~K., Regev, A., and McCarroll,
+  S.~A. (2015).
+\newblock {Highly Parallel Genome-wide Expression Profiling of Individual Cells
+  Using Nanoliter Droplets}.
+\newblock {\em Cell\/}, {\bf 161}(5), 1202--1214.
+
+\bibitem[Patro {\em et~al.}(2015)Patro, Duggal, and Kingsford]{Patro2015-jf}
+Patro, R., Duggal, G., and Kingsford, C. (2015).
+\newblock {Salmon: Accurate, Versatile and Ultrafast Quantification from
+  RNA-seq Data using Lightweight-Alignment}.
+\newblock {\em bioRxiv\/}.
+
+\bibitem[Reid and Wernisch(2015)Reid and Wernisch]{Reid2015-jd}
+Reid, J.~E. and Wernisch, L. (2015).
+\newblock {Pseudotime estimation: deconfounding single cell time series}.
+\newblock {\em bioRxiv\/}.
+
+\bibitem[Risso {\em et~al.}(2014)Risso, Ngai, Speed, and Dudoit]{Risso2014-np}
+Risso, D., Ngai, J., Speed, T.~P., and Dudoit, S. (2014).
+\newblock {Normalization of RNA-seq data using factor analysis of control genes
+  or samples}.
+\newblock {\em Nature biotechnology\/}, {\bf 32}(9), 896--902.
+
+\bibitem[Ritchie {\em et~al.}(2015)Ritchie, Phipson, Wu, Hu, Law, Shi, and
+  Smyth]{Ritchie2015-so}
+Ritchie, M.~E., Phipson, B., Wu, D., Hu, Y., Law, C.~W., Shi, W., and Smyth,
+  G.~K. (2015).
+\newblock {limma powers differential expression analyses for RNA-sequencing and
+  microarray studies}.
+\newblock {\em Nucleic acids research\/}, {\bf 43}(7), e47.
+
+\bibitem[Robinson and Oshlack(2010)Robinson and Oshlack]{Robinson2010-dy}
+Robinson, M.~D. and Oshlack, A. (2010).
+\newblock {A scaling normalization method for differential expression analysis
+  of RNA-seq data}.
+\newblock {\em Genome biology\/}, {\bf 11}(3), R25.
+
+\bibitem[Robinson {\em et~al.}(2010)Robinson, McCarthy, and
+  Smyth]{Robinson2010-ky}
+Robinson, M.~D., McCarthy, D.~J., and Smyth, G.~K. (2010).
+\newblock {edgeR: a Bioconductor package for differential expression analysis
+  of digital gene expression data}.
+\newblock {\em Bioinformatics\/}, {\bf 26}(1), 139--140.
+
+\bibitem[Scialdone {\em et~al.}(2015)Scialdone, Natarajan, Saraiva, Proserpio,
+  Teichmann, Stegle, Marioni, and Buettner]{Scialdone2015-gj}
+Scialdone, A., Natarajan, K.~N., Saraiva, L.~R., Proserpio, V., Teichmann,
+  S.~A., Stegle, O., Marioni, J.~C., and Buettner, F. (2015).
+\newblock {Computational assignment of cell-cycle stage from single-cell
+  transcriptome data}.
+\newblock {\em Methods\/}.
+
+\bibitem[Scialdone {\em et~al.}(2016)Scialdone, Tanaka, Jawaid, Moignard,
+  Wilson, Macaulay, Marioni, and G{\"{o}}ttgens]{Scialdone2016-oa}
+Scialdone, A., Tanaka, Y., Jawaid, W., Moignard, V., Wilson, N.~K., Macaulay,
+  I.~C., Marioni, J.~C., and G{\"{o}}ttgens, B. (2016).
+\newblock {Resolving early mesoderm diversification through single-cell
+  expression profiling}.
+\newblock {\em Nature\/}.
+
+\bibitem[Shalek {\em et~al.}(2013)Shalek, Satija, Adiconis, Gertner, Gaublomme,
+  Raychowdhury, Schwartz, Yosef, Malboeuf, Lu, Trombetta, Gennert, Gnirke,
+  Goren, Hacohen, Levin, Park, and Regev]{Shalek2013-kf}
+Shalek, A.~K., Satija, R., Adiconis, X., Gertner, R.~S., Gaublomme, J.~T.,
+  Raychowdhury, R., Schwartz, S., Yosef, N., Malboeuf, C., Lu, D., Trombetta,
+  J.~J., Gennert, D., Gnirke, A., Goren, A., Hacohen, N., Levin, J.~Z., Park,
+  H., and Regev, A. (2013).
+\newblock {Single-cell transcriptomics reveals bimodality in expression and
+  splicing in immune cells}.
+\newblock {\em Nature\/}, {\bf 498}(7453), 236--240.
+
+\bibitem[Soneson {\em et~al.}(2015)Soneson, Love, and Robinson]{Soneson2015-fw}
+Soneson, C., Love, M.~I., and Robinson, M.~D. (2015).
+\newblock {Differential analyses for RNA-seq: transcript-level estimates
+  improve gene-level inferences}.
+\newblock {\em F1000Research\/}, {\bf 4}, 1521.
+
+\bibitem[Stegle {\em et~al.}(2012)Stegle, Parts, Piipari, Winn, and
+  Durbin]{Stegle2012-is}
+Stegle, O., Parts, L., Piipari, M., Winn, J., and Durbin, R. (2012).
+\newblock {Using probabilistic estimation of expression residuals (PEER) to
+  obtain increased power and interpretability of gene expression analyses}.
+\newblock {\em Nature protocols\/}, {\bf 7}(3), 500--507.
+
+\bibitem[Teng {\em et~al.}(2016)Teng, Love, Davis, Djebali, Dobin, Graveley,
+  Li, Mason, Olson, Pervouchine, Sloan, Wei, Zhan, and Irizarry]{Teng2016-sc}
+Teng, M., Love, M.~I., Davis, C.~A., Djebali, S., Dobin, A., Graveley, B.~R.,
+  Li, S., Mason, C.~E., Olson, S., Pervouchine, D., Sloan, C.~A., Wei, X.,
+  Zhan, L., and Irizarry, R.~A. (2016).
+\newblock {A benchmark for RNA-seq quantification pipelines}.
+\newblock {\em Genome biology\/}, {\bf 17}(1), 74.
+
+\bibitem[Trapnell {\em et~al.}(2013)Trapnell, Hendrickson, Sauvageau, Goff,
+  Rinn, and Pachter]{Trapnell2013-fv}
+Trapnell, C., Hendrickson, D.~G., Sauvageau, M., Goff, L., Rinn, J.~L., and
+  Pachter, L. (2013).
+\newblock {Differential analysis of gene regulation at transcript resolution
+  with RNA-seq}.
+\newblock {\em Nature biotechnology\/}, {\bf 31}(1), 46--53.
+
+\bibitem[Trapnell {\em et~al.}(2014)Trapnell, Cacchiarelli, Grimsby, Pokharel,
+  Li, Morse, Lennon, Livak, Mikkelsen, and Rinn]{Trapnell2014-gj}
+Trapnell, C., Cacchiarelli, D., Grimsby, J., Pokharel, P., Li, S., Morse, M.,
+  Lennon, N.~J., Livak, K.~J., Mikkelsen, T.~S., and Rinn, J.~L. (2014).
+\newblock {The dynamics and regulators of cell fate decisions are revealed by
+  pseudotemporal ordering of single cells}.
+\newblock {\em Nature biotechnology\/}, {\bf 32}(4), 381--386.
+
+\bibitem[Tung {\em et~al.}(2016)Tung, Blischak, Hsiao, Knowles, Burnett,
+  Pritchard, and Gilad]{Tung2016-jy}
+Tung, P.-Y., Blischak, J.~D., Hsiao, C., Knowles, D.~A., Burnett, J.~E.,
+  Pritchard, J.~K., and Gilad, Y. (2016).
+\newblock {Batch effects and the effective design of single-cell gene
+  expression studies}.
+
+\bibitem[Vallejos {\em et~al.}(2015)Vallejos, Marioni, and
+  Richardson]{Vallejos2015-ww}
+Vallejos, C.~A., Marioni, J.~C., and Richardson, S. (2015).
+\newblock {BASiCS: Bayesian Analysis of Single-Cell Sequencing Data}.
+\newblock {\em PLoS computational biology\/}, {\bf 11}(6), e1004333.
+
+\bibitem[Vallejos {\em et~al.}(2016)Vallejos, Richardson, and
+  Marioni]{Vallejos2016-qy}
+Vallejos, C.~A., Richardson, S., and Marioni, J.~C. (2016).
+\newblock {Beyond comparisons of means: understanding changes in gene
+  expression at the single-cell level}.
+\newblock {\em Genome biology\/}, {\bf 17}(1), 70.
+
+\bibitem[Van~der Maaten and Hinton(2008)Van~der Maaten and
+  Hinton]{Van_der_Maaten2008-oe}
+Van~der Maaten, L. and Hinton, G. (2008).
+\newblock {Visualizing data using t-SNE}.
+\newblock {\em Journal of machine learning research: JMLR\/}, {\bf
+  9}(2579-2605), 85.
+
+\bibitem[Van~der Maaten and Hinton(2012)Van~der Maaten and
+  Hinton]{Van_der_Maaten2012-rd}
+Van~der Maaten, L. and Hinton, G. (2012).
+\newblock {Visualizing non-metric similarities in multiple maps}.
+\newblock {\em Machine learning\/}, {\bf 87}(1), 33--55.
+
+\bibitem[Vu {\em et~al.}(2016)Vu, Wills, Kalari, Niu, Wang, Rantalainen, and
+  Pawitan]{Vu2016-sk}
+Vu, T.~N., Wills, Q.~F., Kalari, K.~R., Niu, N., Wang, L., Rantalainen, M., and
+  Pawitan, Y. (2016).
+\newblock {Beta-Poisson model for single-cell RNA-seq data analyses}.
+\newblock {\em Bioinformatics\/}.
+
+\bibitem[Wickham(2011)Wickham]{Wickham2011-cj}
+Wickham, H. (2011).
+\newblock {testthat: Get started with testing}.
+\newblock {\em The R journal\/}, {\bf 3}(1), 5--10.
+
+\bibitem[Wickham(2012)Wickham]{Wickham2012-ec}
+Wickham, H. (2012).
+\newblock {reshape2: Flexibly reshape data: a reboot of the reshape package}.
+\newblock {\em R package version\/}.
+
+\bibitem[Wickham(2015)Wickham]{Wickham2015-kj}
+Wickham, H. (2015).
+\newblock {plyr: Tools for splitting, applying and combining data. R package
+  version 1.8. 1}.
+\newblock {\em R Found. Stat. Comput., Vienna\/}.
+
+\bibitem[Wickham(2016)Wickham]{Wickham2016-dc}
+Wickham, H. (2016).
+\newblock {\em {ggplot2: Elegant Graphics for Data Analysis}\/}.
+\newblock Springer.
+
+\bibitem[Wickham and Francois(2015)Wickham and Francois]{Wickham2015-la}
+Wickham, H. and Francois, R. (2015).
+\newblock {dplyr: A grammar of data manipulation}.
+\newblock {\em R package version 0. 4\/}, {\bf 1}, 20.
+
+\bibitem[Wickham {\em et~al.}(2015)Wickham, Danenberg, and
+  Eugster]{Wickham2015-pu}
+Wickham, H., Danenberg, P., and Eugster, M. (2015).
+\newblock {roxygen2: In-Source Documentation for R}.
+
+\bibitem[Wilke(2016)Wilke]{Wilke2016-hj}
+Wilke, C.~O. (2016).
+\newblock {cowplot: Streamlined Plot Theme and Plot Annotations for 'ggplot2'}.
+
+\bibitem[Xie(2013)Xie]{Xie2013-bn}
+Xie, Y. (2013).
+\newblock {\em {Dynamic Documents with R and knitr}\/}, volume~29.
+\newblock CRC Press.
+
+\bibitem[Yates {\em et~al.}(2016)Yates, Akanni, Amode, Barrell, Billis,
+  Carvalho-Silva, Cummins, Clapham, Fitzgerald, Gil, Gir\'{o}n, Gordon,
+  Hourlier, Hunt, Janacek, Johnson, Juettemann, Keenan, Lavidas, Martin,
+  Maurel, McLaren, Murphy, Nag, Nuhn, Parker, Patricio, Pignatelli, Rahtz,
+  Riat, Sheppard, Taylor, Thormann, Vullo, Wilder, Zadissa, Birney, Harrow,
+  Muffato, Perry, Ruffier, Spudich, Trevanion, Cunningham, Aken, Zerbino, and
+  Flicek]{Yates2016-ia}
+Yates, A., Akanni, W., Amode, M.~R., Barrell, D., Billis, K., Carvalho-Silva,
+  D., Cummins, C., Clapham, P., Fitzgerald, S., Gil, L., Gir\'{o}n, C.~G.,
+  Gordon, L., Hourlier, T., Hunt, S.~E., Janacek, S.~H., Johnson, N.,
+  Juettemann, T., Keenan, S., Lavidas, I., Martin, F.~J., Maurel, T., McLaren,
+  W., Murphy, D.~N., Nag, R., Nuhn, M., Parker, A., Patricio, M., Pignatelli,
+  M., Rahtz, M., Riat, H.~S., Sheppard, D., Taylor, K., Thormann, A., Vullo,
+  A., Wilder, S.~P., Zadissa, A., Birney, E., Harrow, J., Muffato, M., Perry,
+  E., Ruffier, M., Spudich, G., Trevanion, S.~J., Cunningham, F., Aken, B.~L.,
+  Zerbino, D.~R., and Flicek, P. (2016).
+\newblock {Ensembl 2016}.
+\newblock {\em Nucleic acids research\/}, {\bf 44}(D1), D710--6.
+
+\bibitem[Zeisel {\em et~al.}(2015)Zeisel, Mu\~{n}oz Manchado, Codeluppi,
+  L{\"{o}}nnerberg, La~Manno, Jur\'{e}us, Marques, Munguba, He, Betsholtz,
+  Rolny, Castelo-Branco, Hjerling-Leffler, and Linnarsson]{Zeisel2015-ab}
+Zeisel, A., Mu\~{n}oz Manchado, A.~B., Codeluppi, S., L{\"{o}}nnerberg, P.,
+  La~Manno, G., Jur\'{e}us, A., Marques, S., Munguba, H., He, L., Betsholtz,
+  C., Rolny, C., Castelo-Branco, G., Hjerling-Leffler, J., and Linnarsson, S.
+  (2015).
+\newblock {Cell types in the mouse cortex and hippocampus revealed by
+  single-cell RNA-seq}.
+\newblock {\em Science\/}, {\bf 347}(6226), 1138--1142.
+
+\end{thebibliography}
