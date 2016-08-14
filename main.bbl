@@ -1,11 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Allaire {\em et~al.}(2016)Allaire, Cheng, Xie, McPherson, Chang,
-  Allen, Wickham, Atkins, and Hyndman]{Allaire2016-dl}
-Allaire, J.~J., Cheng, J., Xie, Y., McPherson, J., Chang, W., Allen, J.,
-  Wickham, H., Atkins, A., and Hyndman, R. (2016).
-\newblock {rmarkdown: Dynamic Documents for R}.
-
 \bibitem[Amir {\em et~al.}(2013)Amir, Davis, Tadmor, Simonds, Levine, Bendall,
   Shenfeld, Krishnaswamy, Nolan, and Pe'er]{Amir2013-nf}
 Amir, E.-A.~D., Davis, K.~L., Tadmor, M.~D., Simonds, E.~F., Levine, J.~H.,
@@ -38,11 +32,6 @@ Angerer, P., Haghverdi, L., B{\"{u}}ttner, M., Theis, F.~J., Marr, C., and
 \newblock {destiny: diffusion maps for large-scale single-cell data in R}.
 \newblock {\em Bioinformatics\/}.
 
-\bibitem[Bache and Wickham(2014)Bache and Wickham]{Bache2014-sa}
-Bache, S.~M. and Wickham, H. (2014).
-\newblock {Magrittr: A forward-pipe operator for R}.
-\newblock {\em R package version\/}.
-
 \bibitem[Bacher and Kendziorski(2016)Bacher and Kendziorski]{Bacher2016-ay}
 Bacher, R. and Kendziorski, C. (2016).
 \newblock {Design and computational analysis of single-cell RNA-sequencing
@@ -56,11 +45,6 @@ Bendall, S.~C., Davis, K.~L., Amir, E.-A.~D., Tadmor, M.~D., Simonds, E.~F.,
 \newblock {Single-cell trajectory detection uncovers progression and regulatory
   coordination in human B cell development}.
 \newblock {\em Cell\/}, {\bf 157}(3), 714--725.
-
-\bibitem[Bengtsson(2016)Bengtsson]{Bengtsson2016-tn}
-Bengtsson, H. (2016).
-\newblock {matrixStats: Functions that Apply to Rows and Columns of Matrices
-  (and to Vectors)}.
 
 \bibitem[Bray {\em et~al.}(2016)Bray, Pimentel, Melsted, and
   Pachter]{Bray2016-pj}
@@ -103,25 +87,12 @@ Campbell, K., Ponting, C.~P., and Webber, C. (2015).
 \newblock {Laplacian eigenmaps and principal curves for high resolution
   pseudotemporal ordering of single-cell RNA-seq profiles}.
 
-\bibitem[Chang(2015)Chang]{Chang2015-bn}
-Chang, W. (2015).
-\newblock {shinydashboard: Create Dashboards with 'Shiny'}.
-
-\bibitem[Chang {\em et~al.}(2016)Chang, Cheng, Allaire, Xie, and
-  McPherson]{Chang2016-of}
-Chang, W., Cheng, J., Allaire, J.~J., Xie, Y., and McPherson, J. (2016).
-\newblock {shiny: Web Application Framework for R}.
-
 \bibitem[Chikina {\em et~al.}(2015)Chikina, Zaslavsky, and
   Sealfon]{Chikina2015-lq}
 Chikina, M., Zaslavsky, E., and Sealfon, S.~C. (2015).
 \newblock {CellCODE: a robust latent variable approach to differential
   expression analysis for heterogeneous cell populations}.
 \newblock {\em Bioinformatics\/}, {\bf 31}(10), 1584--1591.
-
-\bibitem[Couture-Beil(2014)Couture-Beil]{Couture-Beil2014-kk}
-Couture-Beil, A. (2014).
-\newblock {rjson: JSON for R}.
 
 \bibitem[Delmans and Hemberg(2016)Delmans and Hemberg]{Delmans2016-qc}
 Delmans, M. and Hemberg, M. (2016).
@@ -137,19 +108,6 @@ Ding, B., Zheng, L., Zhu, Y., Li, N., Jia, H., Ai, R., Wildberg, A., and Wang,
   experiments}.
 \newblock {\em Bioinformatics\/}, {\bf 31}(13), 2225--2227.
 
-\bibitem[Dowle {\em et~al.}(2015)Dowle, Srinivasan, Short, and
-  Lianoglou]{Dowle2015-zc}
-Dowle, M., Srinivasan, A., Short, T., and Lianoglou, S. (2015).
-\newblock {data.table: Extension of Data.frame}.
-
-\bibitem[Durinck {\em et~al.}(2005)Durinck, Moreau, Kasprzyk, Davis, De~Moor,
-  Brazma, and Huber]{Durinck2005-yz}
-Durinck, S., Moreau, Y., Kasprzyk, A., Davis, S., De~Moor, B., Brazma, A., and
-  Huber, W. (2005).
-\newblock {BioMart and Bioconductor: a powerful link between biological
-  databases and microarray data analysis}.
-\newblock {\em Bioinformatics\/}, {\bf 21}(16), 3439--3440.
-
 \bibitem[Fan {\em et~al.}(2016)Fan, Salathia, Liu, Kaeser, Yung, Herman, Kaper,
   Fan, Zhang, Chun, and Kharchenko]{Fan2016-wh}
 Fan, J., Salathia, N., Liu, R., Kaeser, G.~E., Yung, Y.~C., Herman, J.~L.,
@@ -157,11 +115,6 @@ Fan, J., Salathia, N., Liu, R., Kaeser, G.~E., Yung, Y.~C., Herman, J.~L.,
 \newblock {Characterizing transcriptional heterogeneity through pathway and
   gene set overdispersion analysis}.
 \newblock {\em Nature methods\/}, {\bf 13}(3), 241--244.
-
-\bibitem[Filzmoser and Gschwandtner(2015)Filzmoser and
-  Gschwandtner]{Filzmoser2015-kx}
-Filzmoser, P. and Gschwandtner, M. (2015).
-\newblock {mvoutlier: Multivariate outlier detection based on robust methods}.
 
 \bibitem[Finak {\em et~al.}(2015)Finak, McDavid, Yajima, Deng, Gersuk, Shalek,
   Slichter, Miller, McElrath, Prlic, Linsley, and Gottardo]{Finak2015-rd}
@@ -171,14 +124,6 @@ Finak, G., McDavid, A., Yajima, M., Deng, J., Gersuk, V., Shalek, A.~K.,
 \newblock {MAST: a flexible statistical framework for assessing transcriptional
   changes and characterizing heterogeneity in single-cell RNA sequencing data}.
 \newblock {\em Genome biology\/}, {\bf 16}, 278.
-
-\bibitem[Fischer and Pau(2016)Fischer and Pau]{Fischer2016-me}
-Fischer, B. and Pau, G. (2016).
-\newblock {rhdf5: HDF5 interface to R}.
-
-\bibitem[Garnier(2016)Garnier]{Garnier2016-hk}
-Garnier, S. (2016).
-\newblock {viridis: Default Color Maps from 'matplotlib'}.
 
 \bibitem[Gr{\"{u}}n and van Oudenaarden(2015)Gr{\"{u}}n and van
   Oudenaarden]{Grun2015-xi}
@@ -266,6 +211,14 @@ Kharchenko, P.~V., Silberstein, L., and Scadden, D.~T. (2014).
 \newblock {Bayesian approach to single-cell differential expression analysis}.
 \newblock {\em Nature methods\/}, {\bf 11}(7), 740--742.
 
+\bibitem[Kim {\em et~al.}(2013)Kim, Pertea, Trapnell, Pimentel, Kelley, and
+  Salzberg]{Kim2013-qb}
+Kim, D., Pertea, G., Trapnell, C., Pimentel, H., Kelley, R., and Salzberg,
+  S.~L. (2013).
+\newblock {TopHat2: accurate alignment of transcriptomes in the presence of
+  insertions, deletions and gene fusions}.
+\newblock {\em Genome biology\/}, {\bf 14}(4), R36.
+
 \bibitem[Kim {\em et~al.}(2015)Kim, Kolodziejczyk, Illicic, Teichmann, and
   Marioni]{Kim2015-xd}
 Kim, J.~K., Kolodziejczyk, A.~A., Illicic, T., Teichmann, S.~A., and Marioni,
@@ -294,6 +247,11 @@ Krijthe, J. (2015).
   Implementation}.
 \newblock {\em 0.10, URL http://CRAN. R-project. org/package= Rtsne\/}.
 
+\bibitem[Langmead and Salzberg(2012)Langmead and Salzberg]{Langmead2012-yc}
+Langmead, B. and Salzberg, S.~L. (2012).
+\newblock {Fast gapped-read alignment with Bowtie 2}.
+\newblock {\em Nature methods\/}, {\bf 9}(4), 357--359.
+
 \bibitem[Leek(2014)Leek]{Leek2014-nu}
 Leek, J.~T. (2014).
 \newblock {svaseq: removing batch effects and other unwanted noise from
@@ -314,14 +272,6 @@ Leek, J.~T., Scharpf, R.~B., Bravo, H.~C., Simcha, D., Langmead, B., Johnson,
   high-throughput data}.
 \newblock {\em Nature Publishing Group\/}, {\bf 11}(10), 733--739.
 
-\bibitem[Leng {\em et~al.}(2015)Leng, Chu, Barry, Li, Choi, Li, Jiang, Stewart,
-  Thomson, and Kendziorski]{Leng2015-ji}
-Leng, N., Chu, L.-F., Barry, C., Li, Y., Choi, J., Li, X., Jiang, P., Stewart,
-  R.~M., Thomson, J.~A., and Kendziorski, C. (2015).
-\newblock {Oscope identifies oscillatory genes in unsynchronized single-cell
-  RNA-seq experiments}.
-\newblock {\em Nature methods\/}, {\bf 12}(10), 947--950.
-
 \bibitem[Liao {\em et~al.}(2014)Liao, Smyth, and Shi]{Liao2014-ui}
 Liao, Y., Smyth, G.~K., and Shi, W. (2014).
 \newblock {featureCounts: an efficient general purpose program for assigning
@@ -333,12 +283,6 @@ Lun, A. T.~L., Bach, K., and Marioni, J.~C. (2016).
 \newblock {Pooling across cells to normalize single-cell RNA sequencing data
   with many zero counts}.
 \newblock {\em Genome biology\/}, {\bf 17}(1), 75.
-
-\bibitem[Maaten(2009)Maaten]{Maaten2009-vy}
-Maaten, L. (2009).
-\newblock {Learning a parametric embedding by preserving local structure}.
-\newblock In {\em {International Conference on Artificial Intelligence and
-  Statistics}\/}, pages 384--391. machinelearning.wustl.edu.
 
 \bibitem[Macosko {\em et~al.}(2015)Macosko, Basu, Satija, Nemesh, Shekhar,
   Goldman, Tirosh, Bialas, Kamitaki, Martersteck, Trombetta, Weitz, Sanes,
@@ -355,11 +299,6 @@ Macosko, E.~Z., Basu, A., Satija, R., Nemesh, J., Shekhar, K., Goldman, M.,
 Patro, R., Duggal, G., and Kingsford, C. (2015).
 \newblock {Salmon: Accurate, Versatile and Ultrafast Quantification from
   RNA-seq Data using Lightweight-Alignment}.
-\newblock {\em bioRxiv\/}.
-
-\bibitem[Reid and Wernisch(2015)Reid and Wernisch]{Reid2015-jd}
-Reid, J.~E. and Wernisch, L. (2015).
-\newblock {Pseudotime estimation: deconfounding single cell time series}.
 \newblock {\em bioRxiv\/}.
 
 \bibitem[Risso {\em et~al.}(2014)Risso, Ngai, Speed, and Dudoit]{Risso2014-np}
@@ -415,12 +354,6 @@ Shalek, A.~K., Satija, R., Adiconis, X., Gertner, R.~S., Gaublomme, J.~T.,
 \newblock {Single-cell transcriptomics reveals bimodality in expression and
   splicing in immune cells}.
 \newblock {\em Nature\/}, {\bf 498}(7453), 236--240.
-
-\bibitem[Soneson {\em et~al.}(2015)Soneson, Love, and Robinson]{Soneson2015-fw}
-Soneson, C., Love, M.~I., and Robinson, M.~D. (2015).
-\newblock {Differential analyses for RNA-seq: transcript-level estimates
-  improve gene-level inferences}.
-\newblock {\em F1000Research\/}, {\bf 4}, 1521.
 
 \bibitem[Stegle {\em et~al.}(2012)Stegle, Parts, Piipari, Winn, and
   Durbin]{Stegle2012-is}
@@ -480,12 +413,6 @@ Van~der Maaten, L. and Hinton, G. (2008).
 \newblock {\em Journal of machine learning research: JMLR\/}, {\bf
   9}(2579-2605), 85.
 
-\bibitem[Van~der Maaten and Hinton(2012)Van~der Maaten and
-  Hinton]{Van_der_Maaten2012-rd}
-Van~der Maaten, L. and Hinton, G. (2012).
-\newblock {Visualizing non-metric similarities in multiple maps}.
-\newblock {\em Machine learning\/}, {\bf 87}(1), 33--55.
-
 \bibitem[Vu {\em et~al.}(2016)Vu, Wills, Kalari, Niu, Wang, Rantalainen, and
   Pawitan]{Vu2016-sk}
 Vu, T.~N., Wills, Q.~F., Kalari, K.~R., Niu, N., Wang, L., Rantalainen, M., and
@@ -493,45 +420,10 @@ Vu, T.~N., Wills, Q.~F., Kalari, K.~R., Niu, N., Wang, L., Rantalainen, M., and
 \newblock {Beta-Poisson model for single-cell RNA-seq data analyses}.
 \newblock {\em Bioinformatics\/}.
 
-\bibitem[Wickham(2011)Wickham]{Wickham2011-cj}
-Wickham, H. (2011).
-\newblock {testthat: Get started with testing}.
-\newblock {\em The R journal\/}, {\bf 3}(1), 5--10.
-
-\bibitem[Wickham(2012)Wickham]{Wickham2012-ec}
-Wickham, H. (2012).
-\newblock {reshape2: Flexibly reshape data: a reboot of the reshape package}.
-\newblock {\em R package version\/}.
-
-\bibitem[Wickham(2015)Wickham]{Wickham2015-kj}
-Wickham, H. (2015).
-\newblock {plyr: Tools for splitting, applying and combining data. R package
-  version 1.8. 1}.
-\newblock {\em R Found. Stat. Comput., Vienna\/}.
-
 \bibitem[Wickham(2016)Wickham]{Wickham2016-dc}
 Wickham, H. (2016).
 \newblock {\em {ggplot2: Elegant Graphics for Data Analysis}\/}.
 \newblock Springer.
-
-\bibitem[Wickham and Francois(2015)Wickham and Francois]{Wickham2015-la}
-Wickham, H. and Francois, R. (2015).
-\newblock {dplyr: A grammar of data manipulation}.
-\newblock {\em R package version 0. 4\/}, {\bf 1}, 20.
-
-\bibitem[Wickham {\em et~al.}(2015)Wickham, Danenberg, and
-  Eugster]{Wickham2015-pu}
-Wickham, H., Danenberg, P., and Eugster, M. (2015).
-\newblock {roxygen2: In-Source Documentation for R}.
-
-\bibitem[Wilke(2016)Wilke]{Wilke2016-hj}
-Wilke, C.~O. (2016).
-\newblock {cowplot: Streamlined Plot Theme and Plot Annotations for 'ggplot2'}.
-
-\bibitem[Xie(2013)Xie]{Xie2013-bn}
-Xie, Y. (2013).
-\newblock {\em {Dynamic Documents with R and knitr}\/}, volume~29.
-\newblock CRC Press.
 
 \bibitem[Yates {\em et~al.}(2016)Yates, Akanni, Amode, Barrell, Billis,
   Carvalho-Silva, Cummins, Clapham, Fitzgerald, Gil, Gir\'{o}n, Gordon,

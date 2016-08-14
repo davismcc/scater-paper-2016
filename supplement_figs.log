@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.3)  9 AUG 2016 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.3)  14 AUG 2016 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**supplement_figs.tex
+**supplement_figs
 (./supplement_figs.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -292,80 +292,92 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 24.
-<figures/sceset_outline.pdf, id=9, 1038.52592pt x 839.35635pt>
+<figures/sceset_outline.pdf, id=43, 1038.52592pt x 839.35635pt>
 File: figures/sceset_outline.pdf Graphic file (type pdf)
 
 <use figures/sceset_outline.pdf>
-Package pdftex.def Info: figures/sceset_outline.pdf used on input line 31.
+Package pdftex.def Info: figures/sceset_outline.pdf used on input line 41.
 (pdftex.def)             Requested size: 484.49844pt x 391.57742pt.
 
-<figures/scater_ecosystem.pdf, id=10, 618.31pt x 780.9175pt>
+<figures/find-pcs_c1_machine.pdf, id=44, 397.485pt x 361.35pt>
+File: figures/find-pcs_c1_machine.pdf Graphic file (type pdf)
+
+<use figures/find-pcs_c1_machine.pdf>
+Package pdftex.def Info: figures/find-pcs_c1_machine.pdf used on input line 47.
+
+(pdftex.def)             Requested size: 356.99844pt x 324.55586pt.
+
+<figures/scater_ecosystem.pdf, id=45, 618.31pt x 780.9175pt>
 File: figures/scater_ecosystem.pdf Graphic file (type pdf)
 
 <use figures/scater_ecosystem.pdf>
-Package pdftex.def Info: figures/scater_ecosystem.pdf used on input line 37.
+Package pdftex.def Info: figures/scater_ecosystem.pdf used on input line 53.
 (pdftex.def)             Requested size: 484.49844pt x 611.93726pt.
 
-<figures/scater_gui_landing_page.pdf, id=11, 1453.43pt x 984.67876pt>
+<figures/scater_gui_landing_page.pdf, id=46, 1453.43pt x 984.67876pt>
 File: figures/scater_gui_landing_page.pdf Graphic file (type pdf)
 
 <use figures/scater_gui_landing_page.pdf>
 Package pdftex.def Info: figures/scater_gui_landing_page.pdf used on input line
- 43.
+ 59.
 (pdftex.def)             Requested size: 484.49844pt x 328.23546pt.
 
-<figures/scater_gui_plotqc.pdf, id=12, 1436.36626pt x 1107.13625pt>
+<figures/scater_gui_plotqc.pdf, id=47, 1436.36626pt x 1107.13625pt>
 File: figures/scater_gui_plotqc.pdf Graphic file (type pdf)
 
 <use figures/scater_gui_plotqc.pdf>
-Package pdftex.def Info: figures/scater_gui_plotqc.pdf used on input line 49.
+Package pdftex.def Info: figures/scater_gui_plotqc.pdf used on input line 65.
 (pdftex.def)             Requested size: 484.49844pt x 373.44809pt.
 
-<figures/scater_gui_pca_qc.pdf, id=13, 1450.41875pt x 985.6825pt>
+<figures/scater_gui_pca_qc.pdf, id=48, 1450.41875pt x 985.6825pt>
 File: figures/scater_gui_pca_qc.pdf Graphic file (type pdf)
 
 <use figures/scater_gui_pca_qc.pdf>
-Package pdftex.def Info: figures/scater_gui_pca_qc.pdf used on input line 55.
+Package pdftex.def Info: figures/scater_gui_pca_qc.pdf used on input line 71.
 (pdftex.def)             Requested size: 484.49844pt x 329.24686pt.
-
+ (./supplement_figs.bbl [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/u
+pdmap/pdftex.map}])
 
 Class revtex4 Warning: Command \address is obsolete;
 Use \affiliation instead.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
-
-[2 <./figures/sceset_outline.pdf>] [3 <./figures/scater_ecosystem.pdf>]
-[4 <./figures/scater_gui_landing_page.pdf>] [5 <./figures/scater_gui_plotqc.pdf
->] [6 <./figures/scater_gui_pca_qc.pdf>] (./supplement_figs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+[2 <./figures/sceset_outline.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+ [3 <./figures/find-pcs_c1_machine.pdf>]
+[4 <./figures/scater_ecosystem.pdf>] [5 <./figures/scater_gui_landing_page.pdf>
+] [6 <./figures/scater_gui_plotqc.pdf>] [7 <./figures/scater_gui_pca_qc.pdf>]
+(./supplement_figs.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `supplement_figs.out' has not changed.
-(rerunfilecheck)             Checksum: 5E881EC51CC6ED8891877F313E5B3AF9;57.
+(rerunfilecheck)             Checksum: 69F66A318D9071177F0CD3B854A1A71D;170.
  ) 
 Here is how much of TeX's memory you used:
- 6436 strings out of 493089
- 92638 string characters out of 6134843
- 185793 words of memory out of 5000000
- 9883 multiletter control sequences out of 15000+600000
- 7945 words of font info for 28 fonts, out of 8000000 for 9000
+ 6513 strings out of 493089
+ 93914 string characters out of 6134843
+ 203825 words of memory out of 5000000
+ 9924 multiletter control sequences out of 15000+600000
+ 9118 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,5n,28p,343b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,5n,28p,541b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on supplement_figs.pdf (6 pages, 764939 bytes).
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on supplement_figs.pdf (7 pages, 921951 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 55 words of extra memory for PDF output out of 10000 (max. 10000000)
 

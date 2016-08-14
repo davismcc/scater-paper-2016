@@ -10,45 +10,45 @@ Warning--empty note in Hicks2015-qy
 Warning--empty note in Kiselev2016-fu
 Warning--empty note in Korthauer2015-wg
 Warning--empty note in Tung2016-jy
-You've used 83 entries,
+You've used 62 entries,
             2378 wiz_defined-function locations,
-            1026 strings with 23191 characters,
-and the built_in function-call counts, 43551 in all, are:
-= -- 3657
-> -- 3573
-< -- 31
-+ -- 1089
-- -- 1089
-* -- 4416
-:= -- 8074
-add.period$ -- 351
-call.type$ -- 83
-change.case$ -- 512
-chr.to.int$ -- 83
-cite$ -- 90
-duplicate$ -- 1483
-empty$ -- 2291
-format.name$ -- 1204
-if$ -- 8228
+            928 strings with 20361 characters,
+and the built_in function-call counts, 35268 in all, are:
+= -- 2845
+> -- 3083
+< -- 14
++ -- 947
+- -- 947
+* -- 3753
+:= -- 6533
+add.period$ -- 282
+call.type$ -- 62
+change.case$ -- 382
+chr.to.int$ -- 62
+cite$ -- 69
+duplicate$ -- 1152
+empty$ -- 1814
+format.name$ -- 1031
+if$ -- 6623
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 67
-newline$ -- 400
-num.names$ -- 332
-pop$ -- 520
+missing$ -- 56
+newline$ -- 306
+num.names$ -- 248
+pop$ -- 387
 preamble$ -- 1
-purify$ -- 514
+purify$ -- 383
 quote$ -- 0
-skip$ -- 1004
+skip$ -- 753
 stack$ -- 0
-substring$ -- 2102
-swap$ -- 261
-text.length$ -- 2
+substring$ -- 1727
+swap$ -- 210
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 741
+type$ -- 555
 warning$ -- 7
-while$ -- 331
+while$ -- 258
 width$ -- 0
-write$ -- 1014
+write$ -- 777
 (There were 7 warnings)

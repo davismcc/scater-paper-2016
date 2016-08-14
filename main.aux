@@ -16,34 +16,17 @@
 \citation{Huber2015-en}
 \citation{Bray2016-pj}
 \citation{Patro2015-jf}
+\citation{Kim2013-qb}
+\citation{Langmead2012-yc}
+\citation{Anders2015-wf}
 \citation{Zeisel2015-ab}
 \citation{Scialdone2016-oa}
 \citation{Huber2015-en}
-\citation{Wickham2015-kj}
-\citation{Wickham2012-ec}
-\citation{Wickham2015-la}
-\citation{Dowle2015-zc}
-\citation{Bache2014-sa}
-\citation{Wickham2016-dc}
-\citation{Durinck2005-yz}
-\citation{Robinson2010-ky}
-\citation{Ritchie2015-so}
-\citation{Fischer2016-me}
-\citation{Couture-Beil2014-kk}
-\citation{Soneson2015-fw}
-\citation{Garnier2016-hk}
-\citation{Bengtsson2016-tn}
-\citation{Wilke2016-hj}
 \citation{Angerer2015-sw}
 \citation{Krijthe2015-is}
-\citation{Filzmoser2015-kx}
-\citation{Wickham2015-pu}
-\citation{Huber2015-en}
-\citation{Xie2013-bn}
-\citation{Allaire2016-dl}
-\citation{Wickham2011-cj}
-\citation{Chang2016-of}
-\citation{Chang2015-bn}
+\citation{Robinson2010-ky}
+\citation{Ritchie2015-so}
+\citation{Wickham2016-dc}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Methods, Data and Implementation}{2}}
 \newlabel{methods-data-and-implementation}{{2}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {{2.1}}Case study with scRNA-seq data}{2}}
@@ -73,11 +56,9 @@
 \citation{Brennecke2013-zv}
 \citation{Kim2015-xd}
 \citation{Vallejos2015-ww}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Six types of QC plot made easily available in the \emph  {scater} package.} (\textbf  {a}) Cumulative expression plot showing the proportion of the library accounted for by the \emph  {x} most-expressed features (from 1 to 500). (\textbf  {b)} PCA plot produced using a subset of the QC metrics computed with \emph  {scater's} calculateQCMetrics function. (\textbf  {c)} Plot of the 50 most-expressed features (here, computed according to the highest total read counts) across all cells in the data set. For each feature, the circle represents the percentage of counts that the gene accounts for computed from counts pooled across all cells. The genes are ordered by this value. The bars for each cell show the percentage of counts accounted for by the gene for each individual cell, providing a visualisation of the distribution across cells. (\textbf  {d}) Plot of frequency of expression (\% of cells in which the feature is deemed expressed) against mean expression level across cells. (\textbf  {e}) Density plot showing the percentage of variance explained by a set of explanatory variables across all genes. (\textbf  {f}) Violin, scatter- and boxplots of principal component values against the C1 machine used for each cell for the six principal components most strongly correlated with C1 machine used. Each individual plot is produced by a single call with either the function plot (\textbf  {a}), plotPCA (\textbf  {b}) or plotQC (\textbf  {c-f}).}}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Different types of QC plots that can be generated with \emph  {scater}.} (\textbf  {a}) Cumulative expression plot showing the proportion of the library accounted for by the top 1--500 most highly-expressed features. (\textbf  {b}) PCA plot produced using a subset of the QC metrics computed with \emph  {scater's} calculateQCMetrics function. (\textbf  {c}) Plot of frequency of expression (percentage of cells in which the feature is deemed expressed) against mean expression level across cells. The vertical dotted line shows the median of the gene mean expression levels, and the horizontal dotted line indicates 50\% frequency of expression. (\textbf  {d}) Plot of the 20 most highly-expressed features (computed according to the highest total read counts) across all cells in the data set. For each feature, the circle represents the percentage of counts that the gene accounts for computed from counts pooled across all cells. The genes are ordered by this value. The bars for each gene show the percentage of counts accounted for by the gene for each individual cell, providing a visualisation of the distribution across cells. (\textbf  {e}) Density plot showing the percentage of variance explained by a set of explanatory variables across all genes. Each individual plot is produced by a single call with either the function plot (\textbf  {a}), plotPCA (\textbf  {b}) or plotQC (\textbf  {c--e}).}}{4}}
 \newlabel{fig:03}{{2}{4}}
 \citation{Van_der_Maaten2008-oe}
-\citation{Maaten2009-vy}
-\citation{Van_der_Maaten2012-rd}
 \citation{Amir2013-nf}
 \citation{Bendall2014-gf}
 \citation{Macosko2015-vt}
@@ -89,12 +70,12 @@
 \citation{Anders2010-kv}
 \citation{Bullard2010-ui}
 \citation{Lun2016-sk}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Reduced dimension representations of cells and gene expression plots with \emph  {scater.}} Plots are shown using all genes (\textbf  {a-c}) and cell cycle genes only (\textbf  {d-f}) using PCA (\textbf  {a,d}), t-SNE (\textbf  {b,e}) and diffusion maps (\textbf  {c,f}), where each point represents a cell. In the top row (\textbf  {a-c}), points are coloured by patient of origin, sized by total features (number of genes with detectable expression) and the shape indicates the C1 machine used to process the cells. In the second row (\textbf  {d-f}), points are coloured by the expression of \emph  {CCND2} (a gene associated with the G1/S phase transition of the cell cycle) in each cell. With the plotExpression function, gene expression can be plotted against any cell metadata variables or the expression of another gene---here, expression for the CD86, IGH44 and IGHV4-34 genes in each cell is plotted against the patient of origin (\textbf  {g}). The function automatically detects whether the x-axis variable is categorical or continuous and plots the data accordingly, with x-axis values ``jittered'' to avoid excessive overplotting of points with the same x coordinate.}}{5}}
+\newlabel{fig:04}{{3}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {{3.5}}Data visualisation}{5}}
 \newlabel{data-visualisation}{{{3.5}}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {{3.6}}Data normalisation and batch correction}{5}}
 \newlabel{data-normalisation-and-batch-correction}{{{3.6}}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Reduced dimension representations of cells and gene expression plots with \emph  {scater.}} Plots are shown using all genes (\textbf  {a-c}) and cell cycle genes only (\textbf  {d-f}) using PCA (\textbf  {a,d}), t-SNE (\textbf  {b,e}) and diffusion maps (\textbf  {c,f}). In the top row (\textbf  {a-c}), points are coloured by patient of origin, sized by total features (number of genes with detectable expression) and the shape indicates the C1 machine used to process the cells. In the second row (\textbf  {d-f}), points are coloured by the expression of \emph  {CCND2} (ENSG00000118971), a gene associated with the G1/S phase transition of the cell cycle. With the plotExpression function, expression for sets of genes can be plotted against any cell metadata variables or the expression of a given gene (\textbf  {g}). The function automatically detects whether the x-axis variable is categorical or continuous and plots the data accordingly, with x-axis values ``jittered'' to avoid excessive overplotting of points with the same x coordinate.}}{5}}
-\newlabel{fig:04}{{3}{5}}
 \citation{Leek2010-nq}
 \citation{Hicks2015-qy}
 \citation{Tung2016-jy}
@@ -114,14 +95,11 @@
 \citation{Kharchenko2014-rx}
 \citation{Korthauer2015-wg}
 \citation{Andrews2016-at}
-\citation{Brennecke2013-zv}
-\citation{Kim2015-xd}
 \citation{Vallejos2015-ww}
 \citation{Kiselev2016-fu}
 \citation{Guo2015-wx}
 \citation{Fan2016-wh}
 \citation{Grun2015-fy}
-\citation{Leek2007-rg}
 \citation{Leek2014-nu}
 \citation{Risso2014-np}
 \citation{Stegle2012-is}
@@ -132,106 +110,83 @@
 \citation{Julia2015-jt}
 \citation{Campbell2016-es}
 \citation{Campbell2015-nj}
-\citation{Reid2015-jd}
-\citation{Leng2015-ji}
 \citation{Haghverdi2016-is}
 \citation{Leek2010-nq}
 \citation{Hicks2015-qy}
 \citation{Tung2016-jy}
 \citation{Bacher2016-ay}
 \citation{Grun2015-xi}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Figure 5: Normalisation approaches made easy with \emph  {scater}.} Principal component analysis plots showing cell structure in the first two PCA dimensions using various normalisation methods methods that can be easily applied in \emph  {scater}, including endogenous size-factor normalisation using methods from the \emph  {scran} package (\textbf  {a}); expression residuals after applying size-factor normalisation and regressing out known, unwanted sources of variation (\textbf  {b}); a ``customised'' expression conditional normalisation approach (\textbf  {c}); and removal of one hidden factor identified using the RUVs method from the \emph  {RUV} package (\textbf  {d}). In all plots, the colour of points is determined by the patient from which cells were obtained, shape is determined by the C1 machine used to process the cells and size reflects the total number of genes with detectable expression in the cell.}}{6}}
-\newlabel{fig:05}{{4}{6}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {{3.7}}Software and data integration}{6}}
 \newlabel{software-and-data-integration}{{{3.7}}{6}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{6}}
 \newlabel{discussion}{{4}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{6}}
+\newlabel{conclusion}{{5}{6}}
 \bibstyle{natbib}
 \bibdata{main}
-\bibcite{Allaire2016-dl}{{1}{2016}{{Allaire {\em  et~al.}}}{{Allaire, Cheng, Xie, McPherson, Chang, Allen, Wickham, Atkins, and Hyndman}}}
-\bibcite{Amir2013-nf}{{2}{2013}{{Amir {\em  et~al.}}}{{Amir, Davis, Tadmor, Simonds, Levine, Bendall, Shenfeld, Krishnaswamy, Nolan, and Pe'er}}}
-\bibcite{Anders2010-kv}{{3}{2010}{{Anders and Huber}}{{Anders and Huber}}}
-\bibcite{Anders2015-wf}{{4}{2015}{{Anders {\em  et~al.}}}{{Anders, Pyl, and Huber}}}
-\bibcite{Andrews2016-at}{{5}{2016}{{Andrews and Hemberg}}{{Andrews and Hemberg}}}
-\bibcite{Angerer2015-sw}{{6}{2015}{{Angerer {\em  et~al.}}}{{Angerer, Haghverdi, B{\"{u}}ttner, Theis, Marr, and Buettner}}}
-\bibcite{Bache2014-sa}{{7}{2014}{{Bache and Wickham}}{{Bache and Wickham}}}
-\bibcite{Bacher2016-ay}{{8}{2016}{{Bacher and Kendziorski}}{{Bacher and Kendziorski}}}
-\bibcite{Bendall2014-gf}{{9}{2014}{{Bendall {\em  et~al.}}}{{Bendall, Davis, Amir, Tadmor, Simonds, Chen, Shenfeld, Nolan, and Pe'er}}}
-\bibcite{Bengtsson2016-tn}{{10}{2016}{{Bengtsson}}{{Bengtsson}}}
-\bibcite{Bray2016-pj}{{11}{2016}{{Bray {\em  et~al.}}}{{Bray, Pimentel, Melsted, and Pachter}}}
-\bibcite{Brennecke2013-zv}{{12}{2013}{{Brennecke {\em  et~al.}}}{{Brennecke, Anders, Kim, Ko\l {}odziejczyk, Zhang, Proserpio, Baying, Benes, Teichmann, Marioni, and Heisler}}}
-\bibcite{Buettner2015-jg}{{13}{2015}{{Buettner {\em  et~al.}}}{{Buettner, Natarajan, Paolo~Casale, Proserpio, Scialdone, Theis, Teichmann, Marioni, and Stegle}}}
-\bibcite{Bullard2010-ui}{{14}{2010}{{Bullard {\em  et~al.}}}{{Bullard, Purdom, Hansen, and Dudoit}}}
-\bibcite{Campbell2016-es}{{15}{2016}{{Campbell and Yau}}{{Campbell and Yau}}}
-\bibcite{Campbell2015-nj}{{16}{2015}{{Campbell {\em  et~al.}}}{{Campbell, Ponting, and Webber}}}
-\bibcite{Chang2015-bn}{{17}{2015}{{Chang}}{{Chang}}}
-\bibcite{Chang2016-of}{{18}{2016}{{Chang {\em  et~al.}}}{{Chang, Cheng, Allaire, Xie, and McPherson}}}
-\bibcite{Chikina2015-lq}{{19}{2015}{{Chikina {\em  et~al.}}}{{Chikina, Zaslavsky, and Sealfon}}}
-\bibcite{Couture-Beil2014-kk}{{20}{2014}{{Couture-Beil}}{{Couture-Beil}}}
-\bibcite{Delmans2016-qc}{{21}{2016}{{Delmans and Hemberg}}{{Delmans and Hemberg}}}
-\bibcite{Ding2015-jv}{{22}{2015}{{Ding {\em  et~al.}}}{{Ding, Zheng, Zhu, Li, Jia, Ai, Wildberg, and Wang}}}
-\bibcite{Dowle2015-zc}{{23}{2015}{{Dowle {\em  et~al.}}}{{Dowle, Srinivasan, Short, and Lianoglou}}}
-\bibcite{Durinck2005-yz}{{24}{2005}{{Durinck {\em  et~al.}}}{{Durinck, Moreau, Kasprzyk, Davis, De~Moor, Brazma, and Huber}}}
-\bibcite{Fan2016-wh}{{25}{2016}{{Fan {\em  et~al.}}}{{Fan, Salathia, Liu, Kaeser, Yung, Herman, Kaper, Fan, Zhang, Chun, and Kharchenko}}}
-\bibcite{Filzmoser2015-kx}{{26}{2015}{{Filzmoser and Gschwandtner}}{{Filzmoser and Gschwandtner}}}
-\bibcite{Finak2015-rd}{{27}{2015}{{Finak {\em  et~al.}}}{{Finak, McDavid, Yajima, Deng, Gersuk, Shalek, Slichter, Miller, McElrath, Prlic, Linsley, and Gottardo}}}
-\bibcite{Fischer2016-me}{{28}{2016}{{Fischer and Pau}}{{Fischer and Pau}}}
-\bibcite{Garnier2016-hk}{{29}{2016}{{Garnier}}{{Garnier}}}
-\bibcite{Grun2015-xi}{{30}{2015}{{Gr{\"{u}}n and van Oudenaarden}}{{Gr{\"{u}}n and van Oudenaarden}}}
-\bibcite{Grun2015-fy}{{31}{2015}{{Gr{\"{u}}n {\em  et~al.}}}{{Gr{\"{u}}n, Lyubimova, Kester, Wiebrands, Basak, Sasaki, Clevers, and van Oudenaarden}}}
-\bibcite{Guo2015-wx}{{32}{2015}{{Guo {\em  et~al.}}}{{Guo, Wang, Steven~Potter, Whitsett, and Xu}}}
-\bibcite{Haghverdi2015-fm}{{33}{2015}{{Haghverdi {\em  et~al.}}}{{Haghverdi, Buettner, and Theis}}}
-\bibcite{Haghverdi2016-is}{{34}{2016}{{Haghverdi {\em  et~al.}}}{{Haghverdi, B{\"{u}}ttner, Alexander~Wolf, Buettner, and Theis}}}
-\bibcite{Hebenstreit2011-ig}{{35}{2011}{{Hebenstreit and Teichmann}}{{Hebenstreit and Teichmann}}}
-\bibcite{Hicks2015-qy}{{36}{2015}{{Hicks {\em  et~al.}}}{{Hicks, Teng, and Irizarry}}}
-\bibcite{Huber2015-en}{{37}{2015}{{Huber {\em  et~al.}}}{{Huber, Carey, Gentleman, Anders, Carlson, Carvalho, Bravo, Davis, Gatto, Girke, Gottardo, Hahne, Hansen, Irizarry, Lawrence, Love, MacDonald, Obenchain, Ole\'{s}, Pag\`{e}s, Reyes, Shannon, Smyth, Tenenbaum, Waldron, and Morgan}}}
-\bibcite{Ilicic2016-dm}{{38}{2016}{{Ilicic {\em  et~al.}}}{{Ilicic, Kim, Kolodziejczyk, Bagger, McCarthy, Marioni, and Teichmann}}}
-\bibcite{Julia2015-jt}{{39}{2015}{{Juli\'{a} {\em  et~al.}}}{{Juli\'{a}, Telenti, and Rausell}}}
-\bibcite{Kanitz2015-wp}{{40}{2015}{{Kanitz {\em  et~al.}}}{{Kanitz, Gypas, Gruber, Gruber, Martin, and Zavolan}}}
-\bibcite{Kharchenko2014-rx}{{41}{2014}{{Kharchenko {\em  et~al.}}}{{Kharchenko, Silberstein, and Scadden}}}
-\bibcite{Kim2015-xd}{{42}{2015}{{Kim {\em  et~al.}}}{{Kim, Kolodziejczyk, Illicic, Teichmann, and Marioni}}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{7}}
-\newlabel{conclusion}{{5}{7}}
+\bibcite{Amir2013-nf}{{1}{2013}{{Amir {\em  et~al.}}}{{Amir, Davis, Tadmor, Simonds, Levine, Bendall, Shenfeld, Krishnaswamy, Nolan, and Pe'er}}}
+\bibcite{Anders2010-kv}{{2}{2010}{{Anders and Huber}}{{Anders and Huber}}}
+\bibcite{Anders2015-wf}{{3}{2015}{{Anders {\em  et~al.}}}{{Anders, Pyl, and Huber}}}
+\bibcite{Andrews2016-at}{{4}{2016}{{Andrews and Hemberg}}{{Andrews and Hemberg}}}
+\bibcite{Angerer2015-sw}{{5}{2015}{{Angerer {\em  et~al.}}}{{Angerer, Haghverdi, B{\"{u}}ttner, Theis, Marr, and Buettner}}}
+\bibcite{Bacher2016-ay}{{6}{2016}{{Bacher and Kendziorski}}{{Bacher and Kendziorski}}}
+\bibcite{Bendall2014-gf}{{7}{2014}{{Bendall {\em  et~al.}}}{{Bendall, Davis, Amir, Tadmor, Simonds, Chen, Shenfeld, Nolan, and Pe'er}}}
+\bibcite{Bray2016-pj}{{8}{2016}{{Bray {\em  et~al.}}}{{Bray, Pimentel, Melsted, and Pachter}}}
+\bibcite{Brennecke2013-zv}{{9}{2013}{{Brennecke {\em  et~al.}}}{{Brennecke, Anders, Kim, Ko\l {}odziejczyk, Zhang, Proserpio, Baying, Benes, Teichmann, Marioni, and Heisler}}}
+\bibcite{Buettner2015-jg}{{10}{2015}{{Buettner {\em  et~al.}}}{{Buettner, Natarajan, Paolo~Casale, Proserpio, Scialdone, Theis, Teichmann, Marioni, and Stegle}}}
+\bibcite{Bullard2010-ui}{{11}{2010}{{Bullard {\em  et~al.}}}{{Bullard, Purdom, Hansen, and Dudoit}}}
+\bibcite{Campbell2016-es}{{12}{2016}{{Campbell and Yau}}{{Campbell and Yau}}}
+\bibcite{Campbell2015-nj}{{13}{2015}{{Campbell {\em  et~al.}}}{{Campbell, Ponting, and Webber}}}
+\bibcite{Chikina2015-lq}{{14}{2015}{{Chikina {\em  et~al.}}}{{Chikina, Zaslavsky, and Sealfon}}}
+\bibcite{Delmans2016-qc}{{15}{2016}{{Delmans and Hemberg}}{{Delmans and Hemberg}}}
+\bibcite{Ding2015-jv}{{16}{2015}{{Ding {\em  et~al.}}}{{Ding, Zheng, Zhu, Li, Jia, Ai, Wildberg, and Wang}}}
+\bibcite{Fan2016-wh}{{17}{2016}{{Fan {\em  et~al.}}}{{Fan, Salathia, Liu, Kaeser, Yung, Herman, Kaper, Fan, Zhang, Chun, and Kharchenko}}}
+\bibcite{Finak2015-rd}{{18}{2015}{{Finak {\em  et~al.}}}{{Finak, McDavid, Yajima, Deng, Gersuk, Shalek, Slichter, Miller, McElrath, Prlic, Linsley, and Gottardo}}}
+\bibcite{Grun2015-xi}{{19}{2015}{{Gr{\"{u}}n and van Oudenaarden}}{{Gr{\"{u}}n and van Oudenaarden}}}
+\bibcite{Grun2015-fy}{{20}{2015}{{Gr{\"{u}}n {\em  et~al.}}}{{Gr{\"{u}}n, Lyubimova, Kester, Wiebrands, Basak, Sasaki, Clevers, and van Oudenaarden}}}
+\bibcite{Guo2015-wx}{{21}{2015}{{Guo {\em  et~al.}}}{{Guo, Wang, Steven~Potter, Whitsett, and Xu}}}
+\bibcite{Haghverdi2015-fm}{{22}{2015}{{Haghverdi {\em  et~al.}}}{{Haghverdi, Buettner, and Theis}}}
+\bibcite{Haghverdi2016-is}{{23}{2016}{{Haghverdi {\em  et~al.}}}{{Haghverdi, B{\"{u}}ttner, Alexander~Wolf, Buettner, and Theis}}}
+\bibcite{Hebenstreit2011-ig}{{24}{2011}{{Hebenstreit and Teichmann}}{{Hebenstreit and Teichmann}}}
+\bibcite{Hicks2015-qy}{{25}{2015}{{Hicks {\em  et~al.}}}{{Hicks, Teng, and Irizarry}}}
+\bibcite{Huber2015-en}{{26}{2015}{{Huber {\em  et~al.}}}{{Huber, Carey, Gentleman, Anders, Carlson, Carvalho, Bravo, Davis, Gatto, Girke, Gottardo, Hahne, Hansen, Irizarry, Lawrence, Love, MacDonald, Obenchain, Ole\'{s}, Pag\`{e}s, Reyes, Shannon, Smyth, Tenenbaum, Waldron, and Morgan}}}
+\bibcite{Ilicic2016-dm}{{27}{2016}{{Ilicic {\em  et~al.}}}{{Ilicic, Kim, Kolodziejczyk, Bagger, McCarthy, Marioni, and Teichmann}}}
+\bibcite{Julia2015-jt}{{28}{2015}{{Juli\'{a} {\em  et~al.}}}{{Juli\'{a}, Telenti, and Rausell}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Figure 5: Normalisation and batch correction with \emph  {scater}.} Principal component analysis plots showing cell structure in the first two PCA dimensions using various normalisation methods methods that can be easily applied in \emph  {scater}, including endogenous size-factor normalisation using methods from the \emph  {scran} package (\textbf  {a}); expression residuals after applying size-factor normalisation and regressing out known, unwanted sources of variation (\textbf  {b}); and removal of one hidden factor identified using the RUVs method from the \emph  {RUV} package (\textbf  {c}). In all plots, the colour of points is determined by the patient from which cells were obtained, shape is determined by the C1 machine used to process the cells and size reflects the total number of genes with detectable expression in the cell.}}{7}}
+\newlabel{fig:05}{{4}{7}}
 \newlabel{acknowledgements}{{5}{7}}
-\bibcite{Kiselev2016-fu}{{43}{2016}{{Kiselev {\em  et~al.}}}{{Kiselev, Kirschner, Schaub, Andrews, Chandra, Natarajan, Reik, Barahona, Green, and Hemberg}}}
-\bibcite{Korthauer2015-wg}{{44}{2015}{{Korthauer {\em  et~al.}}}{{Korthauer, Chu, Newton, Li, Thomson, Stewart, and Kendziorski}}}
-\bibcite{Krijthe2015-is}{{45}{2015}{{Krijthe}}{{Krijthe}}}
-\bibcite{Leek2014-nu}{{46}{2014}{{Leek}}{{Leek}}}
-\bibcite{Leek2007-rg}{{47}{2007}{{Leek and Storey}}{{Leek and Storey}}}
-\bibcite{Leek2010-nq}{{48}{2010}{{Leek {\em  et~al.}}}{{Leek, Scharpf, Bravo, Simcha, Langmead, Johnson, Geman, Baggerly, and Irizarry}}}
-\bibcite{Leng2015-ji}{{49}{2015}{{Leng {\em  et~al.}}}{{Leng, Chu, Barry, Li, Choi, Li, Jiang, Stewart, Thomson, and Kendziorski}}}
-\bibcite{Liao2014-ui}{{50}{2014}{{Liao {\em  et~al.}}}{{Liao, Smyth, and Shi}}}
-\bibcite{Lun2016-sk}{{51}{2016}{{Lun {\em  et~al.}}}{{Lun, Bach, and Marioni}}}
-\bibcite{Maaten2009-vy}{{52}{2009}{{Maaten}}{{Maaten}}}
-\bibcite{Macosko2015-vt}{{53}{2015}{{Macosko {\em  et~al.}}}{{Macosko, Basu, Satija, Nemesh, Shekhar, Goldman, Tirosh, Bialas, Kamitaki, Martersteck, Trombetta, Weitz, Sanes, Shalek, Regev, and McCarroll}}}
-\bibcite{Patro2015-jf}{{54}{2015}{{Patro {\em  et~al.}}}{{Patro, Duggal, and Kingsford}}}
-\bibcite{Reid2015-jd}{{55}{2015}{{Reid and Wernisch}}{{Reid and Wernisch}}}
-\bibcite{Risso2014-np}{{56}{2014}{{Risso {\em  et~al.}}}{{Risso, Ngai, Speed, and Dudoit}}}
-\bibcite{Ritchie2015-so}{{57}{2015}{{Ritchie {\em  et~al.}}}{{Ritchie, Phipson, Wu, Hu, Law, Shi, and Smyth}}}
-\bibcite{Robinson2010-dy}{{58}{2010}{{Robinson and Oshlack}}{{Robinson and Oshlack}}}
-\bibcite{Robinson2010-ky}{{59}{2010}{{Robinson {\em  et~al.}}}{{Robinson, McCarthy, and Smyth}}}
-\bibcite{Scialdone2015-gj}{{60}{2015}{{Scialdone {\em  et~al.}}}{{Scialdone, Natarajan, Saraiva, Proserpio, Teichmann, Stegle, Marioni, and Buettner}}}
-\bibcite{Scialdone2016-oa}{{61}{2016}{{Scialdone {\em  et~al.}}}{{Scialdone, Tanaka, Jawaid, Moignard, Wilson, Macaulay, Marioni, and G{\"{o}}ttgens}}}
-\bibcite{Shalek2013-kf}{{62}{2013}{{Shalek {\em  et~al.}}}{{Shalek, Satija, Adiconis, Gertner, Gaublomme, Raychowdhury, Schwartz, Yosef, Malboeuf, Lu, Trombetta, Gennert, Gnirke, Goren, Hacohen, Levin, Park, and Regev}}}
-\bibcite{Soneson2015-fw}{{63}{2015}{{Soneson {\em  et~al.}}}{{Soneson, Love, and Robinson}}}
-\bibcite{Stegle2012-is}{{64}{2012}{{Stegle {\em  et~al.}}}{{Stegle, Parts, Piipari, Winn, and Durbin}}}
-\bibcite{Teng2016-sc}{{65}{2016}{{Teng {\em  et~al.}}}{{Teng, Love, Davis, Djebali, Dobin, Graveley, Li, Mason, Olson, Pervouchine, Sloan, Wei, Zhan, and Irizarry}}}
-\bibcite{Trapnell2013-fv}{{66}{2013}{{Trapnell {\em  et~al.}}}{{Trapnell, Hendrickson, Sauvageau, Goff, Rinn, and Pachter}}}
-\bibcite{Trapnell2014-gj}{{67}{2014}{{Trapnell {\em  et~al.}}}{{Trapnell, Cacchiarelli, Grimsby, Pokharel, Li, Morse, Lennon, Livak, Mikkelsen, and Rinn}}}
-\bibcite{Tung2016-jy}{{68}{2016}{{Tung {\em  et~al.}}}{{Tung, Blischak, Hsiao, Knowles, Burnett, Pritchard, and Gilad}}}
-\bibcite{Vallejos2015-ww}{{69}{2015}{{Vallejos {\em  et~al.}}}{{Vallejos, Marioni, and Richardson}}}
-\bibcite{Vallejos2016-qy}{{70}{2016}{{Vallejos {\em  et~al.}}}{{Vallejos, Richardson, and Marioni}}}
-\bibcite{Van_der_Maaten2008-oe}{{71}{2008}{{Van~der Maaten and Hinton}}{{Van~der Maaten and Hinton}}}
-\bibcite{Van_der_Maaten2012-rd}{{72}{2012}{{Van~der Maaten and Hinton}}{{Van~der Maaten and Hinton}}}
-\bibcite{Vu2016-sk}{{73}{2016}{{Vu {\em  et~al.}}}{{Vu, Wills, Kalari, Niu, Wang, Rantalainen, and Pawitan}}}
-\bibcite{Wickham2011-cj}{{74}{2011}{{Wickham}}{{Wickham}}}
-\bibcite{Wickham2012-ec}{{75}{2012}{{Wickham}}{{Wickham}}}
-\bibcite{Wickham2015-kj}{{76}{2015}{{Wickham}}{{Wickham}}}
-\bibcite{Wickham2016-dc}{{77}{2016}{{Wickham}}{{Wickham}}}
-\bibcite{Wickham2015-la}{{78}{2015}{{Wickham and Francois}}{{Wickham and Francois}}}
-\bibcite{Wickham2015-pu}{{79}{2015}{{Wickham {\em  et~al.}}}{{Wickham, Danenberg, and Eugster}}}
-\bibcite{Wilke2016-hj}{{80}{2016}{{Wilke}}{{Wilke}}}
-\bibcite{Xie2013-bn}{{81}{2013}{{Xie}}{{Xie}}}
-\bibcite{Yates2016-ia}{{82}{2016}{{Yates {\em  et~al.}}}{{Yates, Akanni, Amode, Barrell, Billis, Carvalho-Silva, Cummins, Clapham, Fitzgerald, Gil, Gir\'{o}n, Gordon, Hourlier, Hunt, Janacek, Johnson, Juettemann, Keenan, Lavidas, Martin, Maurel, McLaren, Murphy, Nag, Nuhn, Parker, Patricio, Pignatelli, Rahtz, Riat, Sheppard, Taylor, Thormann, Vullo, Wilder, Zadissa, Birney, Harrow, Muffato, Perry, Ruffier, Spudich, Trevanion, Cunningham, Aken, Zerbino, and Flicek}}}
-\bibcite{Zeisel2015-ab}{{83}{2015}{{Zeisel {\em  et~al.}}}{{Zeisel, Mu\~{n}oz Manchado, Codeluppi, L{\"{o}}nnerberg, La~Manno, Jur\'{e}us, Marques, Munguba, He, Betsholtz, Rolny, Castelo-Branco, Hjerling-Leffler, and Linnarsson}}}
+\bibcite{Kanitz2015-wp}{{29}{2015}{{Kanitz {\em  et~al.}}}{{Kanitz, Gypas, Gruber, Gruber, Martin, and Zavolan}}}
+\bibcite{Kharchenko2014-rx}{{30}{2014}{{Kharchenko {\em  et~al.}}}{{Kharchenko, Silberstein, and Scadden}}}
+\bibcite{Kim2013-qb}{{31}{2013}{{Kim {\em  et~al.}}}{{Kim, Pertea, Trapnell, Pimentel, Kelley, and Salzberg}}}
+\bibcite{Kim2015-xd}{{32}{2015}{{Kim {\em  et~al.}}}{{Kim, Kolodziejczyk, Illicic, Teichmann, and Marioni}}}
+\bibcite{Kiselev2016-fu}{{33}{2016}{{Kiselev {\em  et~al.}}}{{Kiselev, Kirschner, Schaub, Andrews, Chandra, Natarajan, Reik, Barahona, Green, and Hemberg}}}
+\bibcite{Korthauer2015-wg}{{34}{2015}{{Korthauer {\em  et~al.}}}{{Korthauer, Chu, Newton, Li, Thomson, Stewart, and Kendziorski}}}
+\bibcite{Krijthe2015-is}{{35}{2015}{{Krijthe}}{{Krijthe}}}
+\bibcite{Langmead2012-yc}{{36}{2012}{{Langmead and Salzberg}}{{Langmead and Salzberg}}}
+\bibcite{Leek2014-nu}{{37}{2014}{{Leek}}{{Leek}}}
+\bibcite{Leek2007-rg}{{38}{2007}{{Leek and Storey}}{{Leek and Storey}}}
+\bibcite{Leek2010-nq}{{39}{2010}{{Leek {\em  et~al.}}}{{Leek, Scharpf, Bravo, Simcha, Langmead, Johnson, Geman, Baggerly, and Irizarry}}}
+\bibcite{Liao2014-ui}{{40}{2014}{{Liao {\em  et~al.}}}{{Liao, Smyth, and Shi}}}
+\bibcite{Lun2016-sk}{{41}{2016}{{Lun {\em  et~al.}}}{{Lun, Bach, and Marioni}}}
+\bibcite{Macosko2015-vt}{{42}{2015}{{Macosko {\em  et~al.}}}{{Macosko, Basu, Satija, Nemesh, Shekhar, Goldman, Tirosh, Bialas, Kamitaki, Martersteck, Trombetta, Weitz, Sanes, Shalek, Regev, and McCarroll}}}
+\bibcite{Patro2015-jf}{{43}{2015}{{Patro {\em  et~al.}}}{{Patro, Duggal, and Kingsford}}}
+\bibcite{Risso2014-np}{{44}{2014}{{Risso {\em  et~al.}}}{{Risso, Ngai, Speed, and Dudoit}}}
+\bibcite{Ritchie2015-so}{{45}{2015}{{Ritchie {\em  et~al.}}}{{Ritchie, Phipson, Wu, Hu, Law, Shi, and Smyth}}}
+\bibcite{Robinson2010-dy}{{46}{2010}{{Robinson and Oshlack}}{{Robinson and Oshlack}}}
+\bibcite{Robinson2010-ky}{{47}{2010}{{Robinson {\em  et~al.}}}{{Robinson, McCarthy, and Smyth}}}
+\bibcite{Scialdone2015-gj}{{48}{2015}{{Scialdone {\em  et~al.}}}{{Scialdone, Natarajan, Saraiva, Proserpio, Teichmann, Stegle, Marioni, and Buettner}}}
+\bibcite{Scialdone2016-oa}{{49}{2016}{{Scialdone {\em  et~al.}}}{{Scialdone, Tanaka, Jawaid, Moignard, Wilson, Macaulay, Marioni, and G{\"{o}}ttgens}}}
+\bibcite{Shalek2013-kf}{{50}{2013}{{Shalek {\em  et~al.}}}{{Shalek, Satija, Adiconis, Gertner, Gaublomme, Raychowdhury, Schwartz, Yosef, Malboeuf, Lu, Trombetta, Gennert, Gnirke, Goren, Hacohen, Levin, Park, and Regev}}}
+\bibcite{Stegle2012-is}{{51}{2012}{{Stegle {\em  et~al.}}}{{Stegle, Parts, Piipari, Winn, and Durbin}}}
+\bibcite{Teng2016-sc}{{52}{2016}{{Teng {\em  et~al.}}}{{Teng, Love, Davis, Djebali, Dobin, Graveley, Li, Mason, Olson, Pervouchine, Sloan, Wei, Zhan, and Irizarry}}}
+\bibcite{Trapnell2013-fv}{{53}{2013}{{Trapnell {\em  et~al.}}}{{Trapnell, Hendrickson, Sauvageau, Goff, Rinn, and Pachter}}}
+\bibcite{Trapnell2014-gj}{{54}{2014}{{Trapnell {\em  et~al.}}}{{Trapnell, Cacchiarelli, Grimsby, Pokharel, Li, Morse, Lennon, Livak, Mikkelsen, and Rinn}}}
+\bibcite{Tung2016-jy}{{55}{2016}{{Tung {\em  et~al.}}}{{Tung, Blischak, Hsiao, Knowles, Burnett, Pritchard, and Gilad}}}
+\bibcite{Vallejos2015-ww}{{56}{2015}{{Vallejos {\em  et~al.}}}{{Vallejos, Marioni, and Richardson}}}
+\bibcite{Vallejos2016-qy}{{57}{2016}{{Vallejos {\em  et~al.}}}{{Vallejos, Richardson, and Marioni}}}
+\bibcite{Van_der_Maaten2008-oe}{{58}{2008}{{Van~der Maaten and Hinton}}{{Van~der Maaten and Hinton}}}
+\bibcite{Vu2016-sk}{{59}{2016}{{Vu {\em  et~al.}}}{{Vu, Wills, Kalari, Niu, Wang, Rantalainen, and Pawitan}}}
+\bibcite{Wickham2016-dc}{{60}{2016}{{Wickham}}{{Wickham}}}
+\bibcite{Yates2016-ia}{{61}{2016}{{Yates {\em  et~al.}}}{{Yates, Akanni, Amode, Barrell, Billis, Carvalho-Silva, Cummins, Clapham, Fitzgerald, Gil, Gir\'{o}n, Gordon, Hourlier, Hunt, Janacek, Johnson, Juettemann, Keenan, Lavidas, Martin, Maurel, McLaren, Murphy, Nag, Nuhn, Parker, Patricio, Pignatelli, Rahtz, Riat, Sheppard, Taylor, Thormann, Vullo, Wilder, Zadissa, Birney, Harrow, Muffato, Perry, Ruffier, Spudich, Trevanion, Cunningham, Aken, Zerbino, and Flicek}}}
+\bibcite{Zeisel2015-ab}{{62}{2015}{{Zeisel {\em  et~al.}}}{{Zeisel, Mu\~{n}oz Manchado, Codeluppi, L{\"{o}}nnerberg, La~Manno, Jur\'{e}us, Marques, Munguba, He, Betsholtz, Rolny, Castelo-Branco, Hjerling-Leffler, and Linnarsson}}}
 \global\@namedef{@lastpage@}{8}
