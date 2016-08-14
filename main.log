@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.3)  14 AUG 2016 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.3)  14 AUG 2016 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,30 +425,33 @@ Underfull \hbox (badness 2717) in paragraph at lines 57--58
 \LY1/ptm/m/n/8 other default parameters. Potential PCR duplicates were marked
  []
 
+
+Underfull \hbox (badness 2012) in paragraph at lines 59--60
+\LY1/ptm/m/n/8 to reproduce the results presented in this paper are available a
+t
+ []
+
 <figures/scater_qc_workflow.pdf, id=21, 659.46375pt x 772.8875pt>
 File: figures/scater_qc_workflow.pdf Graphic file (type pdf)
 
 <use figures/scater_qc_workflow.pdf>
-Package pdftex.def Info: figures/scater_qc_workflow.pdf used on input line 76.
+Package pdftex.def Info: figures/scater_qc_workflow.pdf used on input line 77.
 (pdftex.def)             Requested size: 233.27792pt x 273.40402pt.
-LaTeX Font Info:    Try loading font information for LY1+phb on input line 77.
-LaTeX Font Info:    No file LY1phb.fd. on input line 77.
+LaTeX Font Info:    Try loading font information for LY1+phb on input line 78.
+LaTeX Font Info:    No file LY1phb.fd. on input line 78.
 
 
 LaTeX Font Warning: Font shape `LY1/phb/m/n' undefined
-(Font)              using `LY1/ptm/m/n' instead on input line 77.
+(Font)              using `LY1/ptm/m/n' instead on input line 78.
 
 LaTeX Font Info:    Font shape `LY1/phv/bx/n' in size <6.5> not available
-(Font)              Font shape `LY1/phv/b/n' tried instead on input line 77.
+(Font)              Font shape `LY1/phv/b/n' tried instead on input line 78.
 
 LaTeX Font Warning: Font shape `LY1/phb/m/it' undefined
-(Font)              using `LY1/phb/m/n' instead on input line 77.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(Font)              using `LY1/phb/m/n' instead on input line 78.
 
 LaTeX Font Info:    Font shape `LY1/phv/m/it' in size <8> not available
-(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 93.
+(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 94.
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
 [][] 
@@ -459,16 +462,16 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
 File: figures/figure3_alt.pdf Graphic file (type pdf)
 
 <use figures/figure3_alt.pdf>
-Package pdftex.def Info: figures/figure3_alt.pdf used on input line 111.
+Package pdftex.def Info: figures/figure3_alt.pdf used on input line 112.
 (pdftex.def)             Requested size: 486.0pt x 231.19307pt.
 
 
 LaTeX Font Warning: Font shape `LY1/phb/bx/n' undefined
-(Font)              using `LY1/phb/m/n' instead on input line 112.
+(Font)              using `LY1/phb/m/n' instead on input line 113.
 
 
 LaTeX Font Warning: Font shape `LY1/phb/bx/it' undefined
-(Font)              using `LY1/phb/bx/n' instead on input line 112.
+(Font)              using `LY1/phb/bx/n' instead on input line 113.
 
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
@@ -479,7 +482,7 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 182--189
+Underfull \hbox (badness 2564) in paragraph at lines 183--190
 []\LY1/ptm/m/n/8 We also introduce the plotPhenoData function for convenient
  []
 
@@ -487,7 +490,7 @@ Underfull \hbox (badness 2564) in paragraph at lines 182--189
 File: figures/figure4.pdf Graphic file (type pdf)
 
 <use figures/figure4.pdf>
-Package pdftex.def Info: figures/figure4.pdf used on input line 193.
+Package pdftex.def Info: figures/figure4.pdf used on input line 194.
 (pdftex.def)             Requested size: 486.0pt x 242.99956pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -498,7 +501,7 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
  []
 
 [4 <./figures/figure3_alt.pdf>]
-Underfull \hbox (badness 1077) in paragraph at lines 210--225
+Underfull \hbox (badness 1077) in paragraph at lines 211--226
 \LY1/ptm/m/n/8 components analysis; plotTSNE, to perform t-distributed stochast
 ic
  []
@@ -513,10 +516,10 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
 File: figures/figure5.pdf Graphic file (type pdf)
 
 <use figures/figure5.pdf>
-Package pdftex.def Info: figures/figure5.pdf used on input line 298.
+Package pdftex.def Info: figures/figure5.pdf used on input line 299.
 (pdftex.def)             Requested size: 486.0pt x 107.87892pt.
 
-Underfull \hbox (badness 1092) in paragraph at lines 381--388
+Underfull \hbox (badness 1092) in paragraph at lines 382--389
 \LY1/ptm/m/n/8 background, enabling them to process raw reads into high-quality
 
  []
@@ -619,7 +622,7 @@ e1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /helvetic/uhvro8ac.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 2083901 bytes).
+Output written on main.pdf (8 pages, 2084161 bytes).
 PDF statistics:
  183 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams
