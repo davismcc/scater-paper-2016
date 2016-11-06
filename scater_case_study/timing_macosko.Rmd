@@ -1,0 +1,123 @@
+---
+title: "Timings for using scater with Macosko dataset"
+author: Davis McCarthy, Kieran Campbell, Aaron Lun & Quin Wills
+date: "`r Sys.Date()`"
+output: 
+    html_document:
+        toc: true
+        toc_float: true
+        theme: united
+        highlight: tango
+        number_sections: false
+        code_folding: show
+---
+
+```{r setup, include=FALSE}
+library("scater")
+```
+
+# Introduction
+
+This notebook shows timing results for using scater with the Macosko et al Drop-seq dataset consisting of approximately 45,000 cells. The dataset in its current format was supplied by Vladimir Kiselev.
+
+# Read data
+
+```{r read-data}
+counts_mat <- readRDS("../../../../Dropbox/Projects/single-cell-data/macosko2015/macosko_norm.rds")
+dim(counts_mat)
+```
+
+# Create `SCESet` object
+
+We can make a minimal `SCESet` object from the count matrix.
+
+```{r create-sceset}
+cluster <- colnames(counts_mat)
+colnames(counts_mat) <- paste0("Cell", 1:ncol(counts_mat))
+system.time(
+    sce <- newSCESet(countData = counts_mat)
+)
+```
+
+This object now contains the count data, and the data transformed to log2-counts-per-million.
+
+```{r show-sceset}
+rm(counts_mat)
+sce$cluster <- cluster
+sce
+```
+
+# Calculate QC metrics
+
+We do not appear to have ERCC spike-ins in this dataset, so use mitochondrial genes as feature controls.
+
+```{r calc-qc-metrics}
+mtgenes <- grepl("MT:", rownames(sce))
+system.time(
+    sce <- calculateQCMetrics(sce, feature_controls = list(MT = mtgenes))
+)
+```
+
+We can look at plots of QC metrics:
+
+```{r plot-pheno}
+plotPhenoData(sce, aes(x = log10_total_counts, y = total_features, 
+                       colour = pct_counts_feature_controls))
+```
+
+Such phenotype data plots take little time to produce, even for ~45,000 cells.
+
+# Subsetting
+
+Subsetting a random sample of 10,000 cells from the `SCESet` object only take a matter of seconds, so filtering out unwanted cells will not be a major hurdle.
+
+````{r subsetting}
+system.time(
+    sce[, sample(ncol(sce), size = 10000)]
+)
+```
+
+# Automatic outlier detection without output
+
+Automatic outlier detection using PCA on QC metrics does not take too long.
+
+```{r auto-outlier, results='hide'}
+system.time(
+    sce <- plotPCA(sce, pca_data_input = "pdata", detect_outliers = TRUE,
+                   return_SCESet = TRUE)
+)
+```
+
+# PCA using expression values
+
+PCA using expression values still takes less than a couple of minutes.
+
+```{r pca}
+system.time(
+    p1 <- plotPCA(sce, colour_by = "outlier")
+)
+p1
+```
+
+We can look at the original clusters defined by the authors in a PCA plot.
+
+```{r pca-cluster}
+system.time(
+    p2 <- plotPCA(sce, colour_by = "cluster")
+)
+p2
+```
+
+
+# Automatic outlier detection with output
+
+Automatic outlier detection using PCA on QC metrics does not take too long.
+
+```{r auto-outlier-with-output}
+system.time(
+    sce <- plotPCA(sce, pca_data_input = "pdata", detect_outliers = TRUE,
+                   return_SCESet = TRUE)
+)
+```
+
+

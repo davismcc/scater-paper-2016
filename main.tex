@@ -1,4 +1,6 @@
 \documentclass{bioinfo}
+\newcommand{\revised}[1]{\textcolor{red}{#1}}
+
 \copyrightyear{2016} \pubyear{2016}
 
 \access{Advance Access Publication Date: Day Month Year}
@@ -9,8 +11,8 @@
 
 \subtitle{Subject Section}
 
-\title[scater package]{\emph{scater:} pre-processing, quality control, normalisation and visualisation of single-cell RNA-seq data in R}
-\author[McCarthy \textit{et~al}.]{Davis J.~McCarthy\,$^{\text{\sfb 1,2,5}*}$, Kieran R.~Campbell\,$^{\text{\sfb 2,4}}$, Aaron T.~L.~Lun\,$^{\text{\sfb 6}}$ and Quin F.~Wills\,$^{\text{\sfb 2,3}}$}
+\title[scater scRNA-seq package]{\emph{scater:} pre-processing, quality control, normalisation and visualisation of single-cell RNA-seq data in R}
+\author[McCarthy \textit{et~al}.~2016]{Davis J.~McCarthy\,$^{\text{\sfb 1,2,5}*}$, Kieran R.~Campbell\,$^{\text{\sfb 2,4}}$, Aaron T.~L.~Lun\,$^{\text{\sfb 6}}$ and Quin F.~Wills\,$^{\text{\sfb 2,3}}$}
 \address{$^{\text{\sf 1}}$European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI), Hinxton CB10 1SD, United Kingdom;\\
 $^{\text{\sf 2}}$Wellcome Trust Centre for Human Genetics, University of Oxford,
 Roosevelt Drive, Oxford OX3 7BN, United Kingdom;\\
@@ -40,9 +42,9 @@ $^{\text{\sf 6}}$CRUK Cambridge Institute, University of Cambridge, Robinson Way
 
 Single-cell RNA sequencing (scRNA-seq) describes a broad class of techniques which profile the transcriptomes of individual cells. This provides insights into cellular processes at a resolution that cannot be matched by bulk RNA-seq experiments \citep{Hebenstreit2011-ig,Shalek2013-kf}. With scRNA-seq data, the contributions of different cell types to the expression profile of a heterogeneous population can be explicitly determined. Rare cell types can be interrogated and new cell subpopulations can be discovered. Graduated processes such as development and differentiation can also be studied in greater detail. However, this improvement in resolution comes at the cost of increased technical noise and biases. This means that pre-processing, quality control and normalisation are critical to a rigorous analysis of scRNA-seq data. The increased complexity of the data across hundreds or thousands of cells also requires sophisticated visualisation tools to assist interpretation of the results.
 
-Numerous statistical methods and software tools have been published for scRNA-seq data \citep{Guo2015-wx,Kharchenko2014-rx,Finak2015-rd,Delmans2016-qc,Angerer2015-sw,Kiselev2016-fu,Julia2015-jt,Trapnell2014-gj}. However, all of these assume that quality control and normalisation have already been applied. Fewer methods are available in the literature to perform these basic steps in scRNA-seq data processing \citep{Ilicic2016-dm}. This issue is exacerbated by the diversity of scRNA-seq data sets with respect to the experimental protocol and the biological context of the study, meaning that a single processing pipeline with fixed parameters is unlikely to be universally applicable. Rather, software tools are required that support an interactive approach to analysis. This allows parameters to be fine-tuned for the study at hand in response to any issues diagnosed during data exploration. The provided functionality should also process the data in a statistically rigorous manner and encourage reproducible bioinformatics analyses.
+Numerous statistical methods and software tools have been published for scRNA-seq data \citep{Guo2015-wx,Kharchenko2014-rx,Finak2015-rd,Angerer2015-sw,Julia2015-jt,Trapnell2014-gj}. However, all of these assume that quality control and normalisation have already been applied. Fewer methods are available in the literature to perform these basic steps in scRNA-seq data processing \citep{Ilicic2016-dm}. This issue is exacerbated by the diversity of scRNA-seq data sets with respect to the experimental protocol and the biological context of the study, meaning that a single processing pipeline with fixed parameters is unlikely to be universally applicable. Rather, software tools are required that support an interactive approach to analysis. This allows parameters to be fine-tuned for the study at hand in response to any issues diagnosed during data exploration. The provided functionality should also process the data in a statistically rigorous manner and encourage reproducible bioinformatics analyses.
 
-One of the most popular frameworks for interactive analysis is the R programming language, extended for biological data analysis through the Bioconductor project \citep{Huber2015-en}. While Bioconductor packages have been widely used for bulk RNA-seq data, the existing data structures (like the ExpressionSet class) are not sufficient for scRNA-seq data. This is because they do not support data types that are specific to single-cell studies, e.g., cell-cell distance matrices for clustering. For larger studies, this also includes data beyond expression profiles such as intensity values from fluorescence-activated cell sorting, cell imaging data, and information from epigenetic and targeted genotyping assays. Existing methods for processing and applying quality control to scRNA-seq data are similarly inadequate. In particular, current visualisation methods designed for exploratory data analysis of bulk transcriptomic experiments are unsuited to datasets containing hundreds or thousands of cells. The large size of each dataset also favours methods such as \emph{kallisto} \citep{Bray2016-pj} and \emph{Salmon} \citep{Patro2015-jf} for rapidly quantifying gene expression. Extensions to the current computational infrastructure are required to provide appropriate data structures and methods that can accommodate these rich scRNA-seq datasets for integrative analyses of expression and other assay data along with the accompanying metadata.
+One of the most popular frameworks for interactive analysis is the R programming language, extended for biological data analysis through the Bioconductor project \citep{Huber2015-en}. While Bioconductor packages have been widely used for bulk RNA-seq data, the existing data structures (like the ExpressionSet class) are not sufficient for scRNA-seq data. This is because they do not support data types that are specific to single-cell studies, e.g., cell-cell distance matrices for clustering. For larger studies, this also includes data beyond expression profiles such as intensity values from fluorescence-activated cell sorting, cell imaging data, and information from epigenetic and targeted genotyping assays. Existing methods for processing and applying quality control to scRNA-seq data are similarly inadequate. In particular, current visualisation methods designed for exploratory data analysis of bulk transcriptomic experiments are unsuited to datasets containing hundreds or thousands of cells. The large size of each dataset also favours methods such as \emph{kallisto} \citep{Bray2016-pj} and \emph{Salmon} \revised{\citep{Patro2016-rs}} for rapidly quantifying gene expression. Extensions to the current computational infrastructure are required to provide appropriate data structures and methods that can accommodate these rich scRNA-seq datasets for integrative analyses of expression and other assay data along with the accompanying metadata.
 
 % \enlargethispage{12pt}
 
@@ -74,14 +76,16 @@ Further case studies using \emph{scater} on published data, for example from 300
 
 
 \begin{figure}[!tpb]%figure1
-\centerline{\includegraphics[width=0.48\textwidth]{figures/scater_qc_workflow.pdf}}
+\centerline{\includegraphics[width=0.48\textwidth]{scater_qc_workflow.eps}}
 \caption{An overview of the \emph{scater} workflow, from raw sequenced reads to a tidy data set ready for higher-level downstream analysis. For step 5, explanatory variables include experimental covariates like batch, cell source and other recorded information, as well as QC metrics computed from the data. Step 6 describes an optional round of normalisation to remove effects of particular explanatory variables from the data. Automated computation of QC metrics and extensive plotting functionality support the workflow.}\label{fig:01}
 \end{figure}
 
 
 \subsection{Implementation}\label{implementation}
 
-The \emph{scater} package is an open-source R package available through     Bioconductor. Key aspects of the code are written in C++ to minimise computational time and memory use. The package builds on many other R packages, including \emph{Biobase} and \emph{BiocGenerics} for core Bioconductor functionality \citep{Huber2015-en}; \emph{destiny} \citep{Angerer2015-sw} and \emph{Rtsne} \citep{Krijthe2015-is} for dimensionality reduction; and \emph{edgeR} \citep{Robinson2010-ky} and \emph{limma} \citep{Ritchie2015-so} for model fitting and statistical analyses. The plotting functionality in the package uses \emph{ggplot2} \citep{Wickham2016-dc}. A full set of dependencies is provided in the Supplementary Materials.
+The \emph{scater} package is an open-source R package available through     Bioconductor. Key aspects of the code are written in C++ to minimise computational time and memory use\revised{, and the package scales well to large datasets. For example, consider the \citet{Macosko2015-vt} dataset, which contains more than 44,000 cells. The core scater functions to create an SCESet object and calculate QC metrics took approximately two minutes to complete on an early 2015 MacBook Pro laptop with 2.9 GHz Intel Core i5 processor and 16 Gb of RAM. Subsetting the SCESet object takes only a few seconds, and producing a PCA plot with the plotPCA function takes less than a minute.}
+
+The package builds on many other R packages, including \emph{Biobase} and \emph{BiocGenerics} for core Bioconductor functionality \citep{Huber2015-en}; \emph{destiny} \citep{Angerer2015-sw} and \emph{Rtsne} for dimensionality reduction; and \emph{edgeR} \citep{Robinson2010-ky} and \emph{limma} \citep{Ritchie2015-so} for model fitting and statistical analyses. The plotting functionality in the package uses \emph{ggplot2} \citep{Wickham2016-dc}. A full set of dependencies is provided in the Supplementary Materials.
 
 \end{methods}
 
@@ -109,7 +113,7 @@ gene-level expression values and gene or transcript annotations \citep{Yates2016
 \enlargethispage{6pt}
 
 \begin{figure*}[!htpb]%figure3
-\centerline{\includegraphics[width=\textwidth]{figures/figure3_alt.pdf}}
+\centerline{\includegraphics[width=\textwidth]{figure3_alt.eps}}
 \caption{\textbf{Different types of QC plots that can be generated with \emph{scater}.} (\textbf{a}) Cumulative expression plot showing the proportion of the library accounted for by the top 1--500 most highly-expressed features. (\textbf{b}) PCA plot produced using a subset of the QC metrics computed with \emph{scater's} calculateQCMetrics function. (\textbf{c}) Plot of frequency of expression (percentage of cells in which the feature is deemed expressed) against mean expression level across cells. The vertical dotted line shows the median of the gene mean expression levels, and the horizontal dotted line indicates 50\% frequency of expression. (\textbf{d}) Plot of the 20 most highly-expressed features (computed according to the highest total read counts) across all cells in the data set. For each feature, the circle represents the percentage of counts that the gene accounts for computed from counts pooled across all cells. The genes are ordered by this value. The bars for each gene show the percentage of counts accounted for by the gene for each individual cell, providing a visualisation of the distribution across cells. (\textbf{e}) Density plot showing the percentage of variance explained by a set of explanatory variables across all genes. Each individual plot is produced by a single call with either the function plot (\textbf{a}), plotPCA (\textbf{b}) or plotQC (\textbf{c--e}).}\label{fig:03}
 \end{figure*}
 
@@ -133,11 +137,9 @@ boxplots as the default method for visualising expression distributions across
 cells in a dataset, as the latter performs poorly at handling the long tail of
 low- and zero-expression observations in scRNA-seq data.
 
-The plotPCA function implements an approach to automatic outlier
+\revised{The plotPCA function implements an approach to automatic outlier
 detection using multivariate normal methods applied to the cell-level QC
-metrics \citep{Ilicic2016-dm}. Specifically, PCA is applied to the QC metrics
-for all cells and a plot is produced to automatically detect outliers in the
-higher-dimensional QC metric space (Figure~\ref{fig:03}b). These outliers
+metrics \citep{Ilicic2016-dm} and a PCA plot computed from QC metrics is produced showing detected outliers (Figure~\ref{fig:03}b). Briefly, semi-robust principal components are computed on robustly sphered QC metrics data to determine distances for each cell and weights for outlier detection, using the pcout function from the \emph{mvoutlier} R package, which implements the fast algorithm of \citet{Filzmoser2008-sy}. By default, the following QC metrics are used for automatic outlier detection: the percentage of counts from the top 100 features, the total number of features with detectable expression, the percentage of counts from control features, the number of detected feature controls, the log-scaled counts from endogenous features and log-transformed counts from feature controls are used. The user can specify QC metrics or other cell metadata variables to use for outlier detection with the "selected\_variables" argument to plotPCA. Detected} outliers
 correspond to low-quality cells with abnormal library characteristics (e.g.,
 low total counts and few expressed genes) that should be removed prior to
 downstream analysis. This automated approach is powerful but also somewhat opaque with respect to how outliers are defined, and so complements simpler filtering approaches that apply thresholds to particular QC metrics.
@@ -191,7 +193,7 @@ packages and contexts.
 
 
 \begin{figure*}[!htpb]%figure4
-\centerline{\includegraphics[width=\textwidth]{figures/figure4.pdf}}
+\centerline{\includegraphics[width=\textwidth]{figure4.eps}}
 \caption{\textbf{Reduced dimension representations of cells and gene expression plots with \emph{scater.}} Plots are shown using all genes (\textbf{a-c}) and cell cycle genes only (\textbf{d-f}) using PCA (\textbf{a,d}), t-SNE (\textbf{b,e}) and diffusion maps (\textbf{c,f}), where each point represents a cell. In the top row (\textbf{a-c}), points are coloured by patient of origin, sized by total features (number of genes with detectable expression) and the shape indicates the C1 machine used to process the cells. In the second row (\textbf{d-f}), points are coloured by the expression of \emph{CCND2} (a gene associated with the G1/S phase transition of the cell cycle) in each cell. With the plotExpression function, gene expression can be plotted against any cell metadata variables or the expression of another gene---here, expression for the CD86, IGH44 and IGHV4-34 genes in each cell is plotted against the patient of origin (\textbf{g}). The function automatically detects whether the x-axis variable is categorical or continuous and plots the data accordingly, with x-axis values ``jittered'' to avoid excessive overplotting of points with the same x coordinate.}\label{fig:04}
 \end{figure*}
 
@@ -253,7 +255,7 @@ necessarily lost.
 
 \subsection{Data normalisation and batch correction} \label{data-normalisation-and-batch-correction}
 
-Scaling normalisation is typically required in RNA-seq data analysis to remove biases caused by differences in sequencing depth, capture efficiency or composition effects between samples. Frequently used methods for scaling normalization include the trimmed mean of M-values \citep{Robinson2010-dy}, relative log-expression \citep{Anders2010-kv} and upper-quartile methods \citep{Bullard2010-ui}, all of which are available for use in \emph{scater}. In addition, \emph{scater} is tightly integrated with the \emph{scran} package that implements a method utilising cell pooling and deconvolution to compute size factors better suited to scRNA-seq data \citep{Lun2016-sk}.
+Scaling normalisation is typically required in RNA-seq data analysis to remove biases caused by differences in sequencing depth, capture efficiency or composition effects between samples. Frequently used methods for scaling normalization include the trimmed mean of M-values \citep{Robinson2010-dy}, relative log-expression \citep{Anders2010-kv} and upper-quartile methods \citep{Bullard2010-ui}, all of which are available for use in \emph{scater}. In addition, \emph{scater} is tightly integrated with the \emph{scran} package that implements a method utilising cell pooling and deconvolution to compute size factors better suited to scRNA-seq data \citep{Lun2016-sk}. \revised{\citet{Lun2016-uj} also offers further discussion of the respective benefits and drawbacks of spike-in normalisation and non-DE normalisation.}
 
 After scaling normalisation, further correction is typically required to ameliorate or remove batch effects. For example, in the case study dataset, cells from two patients were each processed on two C1 machines. Although C1 machine is not one of the most important explanatory variables on a per-gene level (Figure~\ref{fig:03}e), this factor is correlated with the first principal component of the log-expression data (Figure~\ref{fig:03}f). This effect cannot be removed by scaling normalisation methods, which target cell-specific biases and are not sufficient for removing large-scale batch effects that vary on a gene-by-gene basis (Figure~\ref{fig:05}a). Here we present two possibilities, all easily implemented in a scater workflow.
 
@@ -278,7 +280,7 @@ effects.
 
 In addition to removing known batch effects, it can be important for
 large data sets to identify (potentially unknown) sources of unwanted variation
-\citep{Leek2010-nq,Hicks2015-qy,Tung2016-jy,Bacher2016-ay,Grun2015-xi}.
+\citep{Leek2010-nq,Hicks2015-qy,Grun2015-xi}.
 \emph{scater} is compatible with existing methods such as \emph{svaseq}
 \citep{Leek2007-rg,Leek2014-nu} and \emph{RUVSeq} \citep{Risso2014-np} to
 identify and remove these unwanted sources of variation, and the
@@ -286,21 +288,21 @@ removeBatchEffect method in the \emph{limma} package \citep{Ritchie2015-so}
 to account for known batch effects. Here, just removing the first latent
 variable identified by the RUVs method from \emph{RUVSeq} is sufficient to
 remove the machine effect, as the PCA plot now separates cells by patient
-rather than C1 machine (Figure~\ref{fig:05}c).
+rather than C1 machine (Figure~\ref{fig:05}c). \revised{More targeted applications of these methods can be used to remove specific effects, for example, by identifying latent factors from cell cycle genes to remove the cell cycle effect.}
 
 % Applying removeBatchEffect from
 % \emph{limma} yields normalised data for which PCs are no longer correlated with
 % C1 machine (see Case Study in Supplementary Material), but the patient effect is
 % not the primary driver of variation amongst the PCs (Figure~\ref{fig:05}c).
 
-We emphasise that it is generally preferable to incorporate batch effects or latent variables into statistical models used for inference. Where this is not possible (e.g., for visualisation), directly regressing out these uninteresting factors is required to obtain "corrected" expression values for further analysis.
+We emphasise that it is generally preferable to incorporate batch effects or latent variables into statistical models used for inference. Where this is not possible (e.g., for visualisation), directly regressing out these uninteresting factors is required to obtain "corrected" expression values for further analysis. \revised{A general risk of removing latent factors is that interesting biological variation may be removed along with the presumed unwanted variation. Users should therefore apply such methods with appropriate caution, particularly when an analysis aims to discover biological conditions, such as new cell types.}
 
 \begin{figure*}[!tpb]%figure5
-\centerline{\includegraphics[width=\textwidth]{figures/figure5.pdf}}
-\caption{\textbf{Figure 5: Normalisation and batch correction with
+\centerline{\includegraphics[width=\textwidth]{figure5.eps}}
+\caption{\textbf{Normalisation and batch correction with
 \emph{scater}.} Principal component analysis plots showing cell
 structure in the first two PCA dimensions using various normalisation
-methods methods that can be easily applied in \emph{scater}, including
+methods that can be easily applied in \emph{scater}, including
 endogenous size-factor normalisation using methods from the \emph{scran}
 package (\textbf{a}); expression residuals after applying size-factor
 normalisation and regressing out known, unwanted sources of variation
@@ -328,11 +330,11 @@ seamlessly with SCESet objects. Tools that can integrate easily with
 variable analysis
 \citep{Leek2014-nu,Risso2014-np,Stegle2012-is,Chikina2015-lq},
 cell cycle phase identification \citep{Scialdone2015-gj} and pseudotime
-computation \citep{Trapnell2014-gj,Angerer2015-sw,Julia2015-jt,Campbell2016-es,Campbell2015-nj,Haghverdi2016-is}. The \emph{scater} package bridges
+computation \citep{Trapnell2014-gj,Angerer2015-sw,Julia2015-jt,Campbell2016-es,Haghverdi2016-is}. The \emph{scater} package bridges
 the gap between raw reads and these downstream analysis tools by providing the
 pre-processing, QC, visualisation and normalisation methods and a data
 structure combining multiple data modalities and metadata necessary for
-convenient, robust and reproducible analyses of scRNA-seq data.
+convenient, robust and reproducible analyses of scRNA-seq data \revised{(see Supplementary Material for discussion of entry points to several third party tools from \emph{scater}).} 
 
 
 \section{Discussion}\label{discussion}
@@ -346,7 +348,7 @@ requires careful quality control to remove low-quality cells and genes,
 as well as normalisation to adjust for biases and batch effects in the
 expression data. Failure to carry out these procedures correctly is
 likely to compromise the validity of all downstream analyses
-\citep{Leek2010-nq,Hicks2015-qy,Tung2016-jy,Bacher2016-ay,Grun2015-xi}.
+\citep{Leek2010-nq,Hicks2015-qy,Grun2015-xi}.
 
 Here, we present an R/Bioconductor package, \emph{scater}, that provides
 crucial infrastructure and methods for low-level scRNA-seq data
@@ -370,7 +372,7 @@ visualised with a variety of popular dimensionality-reduction techniques
 in plots that incorporate cell metadata and expression values as
 plotting variables.
 
-Normalisation is a critical aspect of scRNA-seq data processing that is supported by \emph{scater}. Scaling normalisation methods, including the single-cell specific methods in the \emph{scran} package, are seamlessly integrated into a \emph{scater} workflow. Methods for identifying and removing batch effects and other types of unwanted variation are supported both with internal methods and through integration with a multitude of tools available in the R/Bioconductor environment. Once identified, important covariates and latent variables can be flagged for inclusion in downstream statistical models or their effects regressed out of normalised expression values.
+Normalisation is a critical aspect of scRNA-seq data processing that is supported by \emph{scater}. Scaling normalisation methods, including the single-cell specific methods in the \emph{scran} package, are seamlessly integrated into a \emph{scater} workflow. Methods for identifying and removing batch effects and other types of unwanted variation are supported both with internal methods and through integration with a multitude of tools available in the R/Bioconductor environment. Once identified, important covariates and latent variables can be flagged for inclusion in downstream statistical models or their effects regressed out of normalised expression values. \revised{The package is well documented and a recent step-by-step workflow article demonstrates detailed use of \emph{scater} in combination with other analysis packages in a range of scenarios \citep{Lun2016-uj}.}
 
 Future development will include further extensions to data structures that will enable tight integration of single-cell transcriptomic, genetic and epigenetic data, as well as further refinement of the methods available as the single-cell field matures. Although \emph{scater} has been produced for
 scRNA-seq data, its capabilities are well suited for single-cell qPCR data
@@ -390,7 +392,7 @@ single-cell RNA sequencing field.\vspace*{-10pt}
 
 \section*{Funding}
 
-This work was supported by the National Health and Medical Research Council of Australia [Early Career Fellowship to D.J.M.], by core funding from the European Molecular Biology Laboratory [D.J.M.], core funding from Cancer Research UK [A17197 to A.T.L.L.), the United Kingdom Medical Research Council [studentship to K.R.C.) and the Oxford Single Cell Biology Consortium [Q.F.W.].\vspace*{-12pt}
+This work was supported by the National Health and Medical Research Council of Australia [APP1112681 to D.J.M.], by core funding from the European Molecular Biology Laboratory [D.J.M.], core funding from Cancer Research UK [A17197 to A.T.L.L.), the United Kingdom Medical Research Council [studentship to K.R.C.) and the Oxford Single Cell Biology Consortium [Q.F.W.].\vspace*{-12pt}
 
 
 \section*{Acknowledgements}\label{acknowledgements}

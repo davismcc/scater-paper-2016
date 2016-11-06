@@ -4,51 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: natbib.bst
 Database file #1: main.bib
 Warning--empty note in Andrews2016-at
-Warning--empty note in Campbell2016-es
-Warning--empty note in Campbell2015-nj
-Warning--empty note in Hicks2015-qy
-Warning--empty note in Kiselev2016-fu
-Warning--empty note in Korthauer2015-wg
-Warning--empty note in Tung2016-jy
-You've used 62 entries,
+You've used 59 entries,
             2378 wiz_defined-function locations,
-            928 strings with 20361 characters,
-and the built_in function-call counts, 35268 in all, are:
-= -- 2845
-> -- 3083
-< -- 14
-+ -- 947
-- -- 947
-* -- 3753
-:= -- 6533
+            924 strings with 19896 characters,
+and the built_in function-call counts, 35337 in all, are:
+= -- 2883
+> -- 3016
+< -- 15
++ -- 929
+- -- 928
+* -- 3741
+:= -- 6414
 add.period$ -- 282
-call.type$ -- 62
-change.case$ -- 382
-chr.to.int$ -- 62
-cite$ -- 69
-duplicate$ -- 1152
-empty$ -- 1814
-format.name$ -- 1031
-if$ -- 6623
-int.to.chr$ -- 1
+call.type$ -- 59
+change.case$ -- 362
+chr.to.int$ -- 58
+cite$ -- 60
+duplicate$ -- 1196
+empty$ -- 1863
+format.name$ -- 1005
+if$ -- 6727
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 56
-newline$ -- 306
-num.names$ -- 248
-pop$ -- 387
+missing$ -- 59
+newline$ -- 297
+num.names$ -- 236
+pop$ -- 374
 preamble$ -- 1
-purify$ -- 383
+purify$ -- 363
 quote$ -- 0
-skip$ -- 753
+skip$ -- 793
 stack$ -- 0
-substring$ -- 1727
-swap$ -- 210
-text.length$ -- 0
+substring$ -- 1854
+swap$ -- 266
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 555
-warning$ -- 7
-while$ -- 258
+type$ -- 528
+warning$ -- 1
+while$ -- 260
 width$ -- 0
-write$ -- 777
-(There were 7 warnings)
+write$ -- 761
+(There was 1 warning)

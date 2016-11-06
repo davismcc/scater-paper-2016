@@ -540,6 +540,9 @@
 
 % The entry below contains non-ASCII chars that could not be converted
 % to a LaTeX equivalent.
+
+% The entry below contains non-ASCII chars that could not be converted
+% to a LaTeX equivalent.
 @ARTICLE{Vu2016-sk,
   title       = "{Beta-Poisson model for single-cell RNA-seq data analyses}",
   author      = "Vu, Trung Nghia and Wills, Quin F and Kalari, Krishna R and
@@ -584,10 +587,13 @@
                  differential expression analyses of single-cell RNA-seq data
                  is available under GPL-3 license at
                  https://github.com/nghiavtr/BPSC CONTACT: yudi.pawitan@ki.se
-                 or mattias.rantalainen@ki.seSupplementary information:
+                 or mattias.rantalainen@ki.se SUPPLEMENTARY INFORMATION:
                  Supplementary data are available at Bioinformatics online.",
   journal     = "Bioinformatics",
-  month       =  "19~" # apr,
+  volume      =  32,
+  number      =  14,
+  pages       = "2128--2135",
+  month       =  "15~" # jul,
   year        =  2016,
   url         = "http://dx.doi.org/10.1093/bioinformatics/btw202",
   language    = "en",
@@ -595,6 +601,8 @@
   pmid        = "27153638",
   doi         = "10.1093/bioinformatics/btw202"
 }
+
+
 
 @UNPUBLISHED{Tung2016-jy,
   title    = "{Batch effects and the effective design of single-cell gene
@@ -1517,32 +1525,6 @@
   doi         = "10.1093/bioinformatics/bti525"
 }
 
-@UNPUBLISHED{Campbell2015-nj,
-  title    = "{Laplacian eigenmaps and principal curves for high resolution
-              pseudotemporal ordering of single-cell RNA-seq profiles}",
-  author   = "Campbell, Kieran and Ponting, Chris P and Webber, Caleb",
-  abstract = "Advances in RNA-seq technologies provide unprecedented insight
-              into the variability and heterogeneity of gene expression at the
-              single-cell level. However, such data offers only a snapshot of
-              the transcriptome, whereas it is often the progression of cells
-              through dynamic biological processes that is of interest. As a
-              result, one outstanding challenge is to infer such progressions
-              by ordering gene expression from single cell data alone, known as
-              the cell ordering problem. Here, we introduce a new method that
-              constructs a low-dimensional non-linear embedding of the data
-              using laplacian eigenmaps before assigning each cell a pseudotime
-              using principal curves. We characterise why on a theoretical
-              level our method is more robust to the high levels of noise
-              typical of single-cell RNA-seq data before demonstrating its
-              utility on two existing datasets of differentiating cells.",
-  journal  = "bioRxiv",
-  pages    = "027219",
-  month    =  "1~" # jan,
-  year     =  2015,
-  url      = "http://biorxiv.org/content/early/2015/09/18/027219",
-  doi      = "10.1101/027219"
-}
-
 @ARTICLE{Julia2015-jt,
   title       = "{Sincell: an R/Bioconductor package for statistical assessment
                  of cell-state hierarchies from single-cell RNA-seq}",
@@ -1608,23 +1590,42 @@
   issn      = "0885-6125"
 }
 
+
 @ARTICLE{Leek2010-nq,
-  title    = "{Tackling the widespread and critical impact of batch effects in
-              high-throughput data}",
-  author   = "Leek, Jeffrey T and Scharpf, Robert B and Bravo, H\'{e}ctor
-              Corrada and Simcha, David and Langmead, Benjamin and Johnson, W
-              Evan and Geman, Donald and Baggerly, Keith and Irizarry, Rafael A",
-  abstract = "Nature Reviews Genetics 11, 733 (2010). doi:10.1038/nrg2825",
-  journal  = "Nature Publishing Group",
-  volume   =  11,
-  number   =  10,
-  pages    = "733--739",
-  month    =  jan,
-  year     =  2010,
-  url      = "http://dx.doi.org/10.1038/nrg2825",
-  keywords = "Aug 7 import;Aug 8 import",
-  doi      = "10.1038/nrg2825"
+  title       = "{Tackling the widespread and critical impact of batch effects
+                 in high-throughput data}",
+  author      = "Leek, Jeffrey T and Scharpf, Robert B and Bravo, H\'{e}ctor
+                 Corrada and Simcha, David and Langmead, Benjamin and Johnson,
+                 W Evan and Geman, Donald and Baggerly, Keith and Irizarry,
+                 Rafael A",
+  affiliation = "Department of Biostatistics, Johns Hopkins Bloomberg School of
+                 Public Health, Baltimore, Maryland 21205-2179, USA.",
+  abstract    = "High-throughput technologies are widely used, for example to
+                 assay genetic variants, gene and protein expression, and
+                 epigenetic modifications. One often overlooked complication
+                 with such studies is batch effects, which occur because
+                 measurements are affected by laboratory conditions, reagent
+                 lots and personnel differences. This becomes a major problem
+                 when batch effects are correlated with an outcome of interest
+                 and lead to incorrect conclusions. Using both published
+                 studies and our own analyses, we argue that batch effects (as
+                 well as other technical and biological artefacts) are
+                 widespread and critical to address. We review experimental and
+                 computational approaches for doing so.",
+  journal     = "Nature reviews. Genetics",
+  volume      =  11,
+  number      =  10,
+  pages       = "733--739",
+  month       =  oct,
+  year        =  2010,
+  url         = "http://dx.doi.org/10.1038/nrg2825",
+  language    = "en",
+  issn        = "1471-0056, 1471-0064",
+  pmid        = "20838408",
+  doi         = "10.1038/nrg2825",
+  pmc         = "PMC3880143"
 }
+
 
 @ARTICLE{Hebenstreit2011-ig,
   title       = "{Analysis and simulation of gene expression profiles in pure
@@ -1801,7 +1802,8 @@
   doi         = "10.1093/bioinformatics/btv715"
 }
 
-@UNPUBLISHED{Kiselev2016-fu,
+
+@ARTICLE{Kiselev2016-fu,
   title    = "{SC3 - consensus clustering of single-cell RNA-Seq data}",
   author   = "Kiselev, Vladimir Yu and Kirschner, Kristina and Schaub, Michael
               T and Andrews, Tallulah and Chandra, Tamir and Natarajan, Kedar N
@@ -1817,7 +1819,8 @@
   doi      = "10.1101/036558"
 }
 
-@UNPUBLISHED{Hicks2015-qy,
+
+@ARTICLE{Hicks2015-qy,
   title    = "{On the widespread and critical impact of systematic bias and
               batch effects in single-cell RNA-Seq data}",
   author   = "Hicks, Stephanie C and Teng, Mingxiang and Irizarry, Rafael A",
@@ -1846,6 +1849,7 @@
   language = "en",
   doi      = "10.1101/025528"
 }
+
 
 @ARTICLE{Leek2007-rg,
   title    = "{Capturing heterogeneity in gene expression studies by surrogate
@@ -1951,31 +1955,19 @@
   doi       = "10.1038/nmeth.2930"
 }
 
-@ARTICLE{Patro2015-jf,
-  title     = "{Salmon: Accurate, Versatile and Ultrafast Quantification from
-               RNA-seq Data using Lightweight-Alignment}",
-  author    = "Patro, Rob and Duggal, Geet and Kingsford, Carl",
-  abstract  = "Transcript quantification is a central task in the analysis of
-               RNA-seq data. Accurate computational methods for the
-               quantification of transcript abundances are essential for
-               downstream analysis. However, most existing approaches are much
-               slower than is necessary for their degree of accuracy. We
-               introduce Salmon, a novel method and software tool for
-               transcript quantification that exhibits state-of-the-art
-               accuracy while being significantly faster than most other tools.
-               Salmon achieves this through the combined application of a
-               two-phase inference procedure, a reduced data representation,
-               and a novel lightweight read alignment algorithm. Salmon is
-               written in C++11, and is available under the GPL v3 license as
-               open-source software at https://combine-lab.github.io/salmon.",
-  journal   = "bioRxiv",
-  publisher = "biorxiv.org",
-  month     =  "27~" # jun,
-  year      =  2015,
-  url       = "http://www.biorxiv.org/content/early/2015/06/27/021592.abstract",
-  keywords  = "RNA-Seq;Single-Cell;Methods in Genomics;Scientific Software",
-  doi       = "10.1101/021592"
+
+@ARTICLE{Patro2016-rs,
+  title   = "{Salmon provides accurate, fast, and bias-aware transcript
+             expression estimates using dual-phase inference}",
+  author  = "Patro, Rob and Duggal, Geet and Love, Michael I and Irizarry,
+             Rafael A and Kingsford, Carl",
+  journal = "bioRxiv",
+  month   =  aug,
+  year    =  2016,
+  url     = "http://dx.doi.org/10.1101/021592",
+  doi     = "10.1101/021592"
 }
+
 
 @ARTICLE{Anders2013-xn,
   title       = "{Count-based differential expression analysis of RNA sequencing
@@ -2111,6 +2103,7 @@
   doi         = "10.1038/nature14966"
 }
 
+
 @ARTICLE{Scialdone2016-oa,
   title       = "{Resolving early mesoderm diversification through single-cell
                  expression profiling}",
@@ -2174,14 +2167,19 @@
                  knockout does not immediately bias precursor cells towards a
                  cardiac fate.",
   journal     = "Nature",
-  month       =  "6~" # jul,
+  volume      =  535,
+  number      =  7611,
+  pages       = "289--293",
+  month       =  "14~" # jul,
   year        =  2016,
   url         = "http://dx.doi.org/10.1038/nature18633",
   language    = "en",
   issn        = "0028-0836, 1476-4687",
   pmid        = "27383781",
-  doi         = "10.1038/nature18633"
+  doi         = "10.1038/nature18633",
+  pmc         = "PMC4947525"
 }
+
 
 @ARTICLE{Ding2015-jv,
   title       = "{Normalization and noise reduction for single cell RNA-seq
@@ -2262,21 +2260,24 @@
   pmc         = "PMC4481848"
 }
 
-@UNPUBLISHED{Korthauer2015-wg,
-  title    = "{scDD: A statistical approach for identifying differential
-              distributions in single-cell RNA-seq experiments}",
-  author   = "Korthauer, Keegan D and Chu, Li-Fang and Newton, Michael A and
-              Li, Yuan and Thomson, James and Stewart, Ron and Kendziorski,
-              Christina",
-  abstract = "bioRxiv - the preprint server for biology, operated by Cold
-              Spring Harbor Laboratory, a research and educational institution",
-  journal  = "bioRxiv",
-  pages    = "035501",
-  month    =  "1~" # jan,
-  year     =  2015,
-  url      = "http://biorxiv.org/content/early/2015/12/29/035501",
-  doi      = "10.1101/035501"
+
+@ARTICLE{Korthauer2015-wg,
+  title     = "{scDD: A statistical approach for identifying differential
+               distributions in single-cell RNA-seq experiments}",
+  author    = "Korthauer, Keegan D and Chu, Li-Fang and Newton, Michael A and
+               Li, Yuan and Thomson, James and Stewart, Ron and Kendziorski,
+               Christina",
+  abstract  = "bioRxiv - the preprint server for biology, operated by Cold
+               Spring Harbor Laboratory, a research and educational institution",
+  journal   = "bioRxiv",
+  publisher = "Cold Spring Harbor Labs Journals",
+  pages     = "035501",
+  month     =  "1~" # jan,
+  year      =  2015,
+  url       = "http://biorxiv.org/content/early/2015/12/29/035501",
+  doi       = "10.1101/035501"
 }
+
 
 @INCOLLECTION{Jolliffe2014-vt,
   title     = "{Principal Component Analysis}",
@@ -2964,6 +2965,7 @@
   pmc         = "PMC3378882"
 }
 
+
 @ARTICLE{Scialdone2015-gj,
   title       = "{Computational assignment of cell-cycle stage from single-cell
                  transcriptome data}",
@@ -3030,15 +3032,20 @@
                  protocols.",
   journal     = "Methods",
   publisher   = "Elsevier",
-  month       =  "2~" # jul,
+  volume      =  85,
+  pages       = "54--61",
+  month       =  "1~" # sep,
   year        =  2015,
   url         = "http://dx.doi.org/10.1016/j.ymeth.2015.06.021",
   keywords    = "Cell cycle; Computational biology; Machine learning; Single
-                 cell; Single cell RNA-seq;Single-Cell;Cell Cycle",
+                 cell; Single cell RNA-seq",
+  language    = "en",
   issn        = "1046-2023, 1095-9130",
   pmid        = "26142758",
   doi         = "10.1016/j.ymeth.2015.06.021"
 }
+
+
 
 @ARTICLE{Finak2015-rd,
   title       = "{MAST: a flexible statistical framework for assessing
@@ -3490,50 +3497,6 @@
   note         = "Accessed: 2016-8-1"
 }
 
-@ARTICLE{Delmans2016-qc,
-  title       = "{Discrete distributional differential expression (D(3)E) - a
-                 tool for gene expression analysis of single-cell RNA-seq data}",
-  author      = "Delmans, Mihails and Hemberg, Martin",
-  affiliation = "Department of Plant Sciences, University of Cambridge, Downing
-                 Street, Cambridge, CB2 3EA, UK. md656@cam.ac.uk. Wellcome
-                 Trust Sanger Institute, Wellcome Genome Campus, Hinxton, CB10
-                 1SA, UK. mh26@sanger.ac.uk.",
-  abstract    = "BACKGROUND: The advent of high throughput RNA-seq at the
-                 single-cell level has opened up new opportunities to elucidate
-                 the heterogeneity of gene expression. One of the most
-                 widespread applications of RNA-seq is to identify genes which
-                 are differentially expressed between two experimental
-                 conditions. RESULTS: We present a discrete, distributional
-                 method for differential gene expression (D(3)E), a novel
-                 algorithm specifically designed for single-cell RNA-seq data.
-                 We use synthetic data to evaluate D(3)E, demonstrating that it
-                 can detect changes in expression, even when the mean level
-                 remains unchanged. Since D(3)E is based on an analytically
-                 tractable stochastic model, it provides additional biological
-                 insights by quantifying biologically meaningful properties,
-                 such as the average burst size and frequency. We use D(3)E to
-                 investigate experimental data, and with the help of the
-                 underlying model, we directly test hypotheses about the
-                 driving mechanism behind changes in gene expression.
-                 CONCLUSION: Evaluation using synthetic data shows that D(3)E
-                 performs better than other methods for identifying
-                 differentially expressed genes since it is designed to take
-                 full advantage of the information available from single-cell
-                 RNA-seq experiments. Moreover, the analytical model underlying
-                 D(3)E makes it possible to gain additional biological
-                 insights.",
-  journal     = "BMC bioinformatics",
-  volume      =  17,
-  number      =  1,
-  pages       = "110",
-  month       =  "29~" # feb,
-  year        =  2016,
-  url         = "http://dx.doi.org/10.1186/s12859-016-0944-6",
-  issn        = "1471-2105",
-  pmid        = "26927822",
-  doi         = "10.1186/s12859-016-0944-6",
-  pmc         = "PMC4772470"
-}
 
 @MISC{Chang2015-bn,
   title  = "{shinydashboard: Create Dashboards with 'Shiny'}",
@@ -3542,6 +3505,7 @@
   url    = "https://CRAN.R-project.org/package=shinydashboard",
   annote = "R package version 0.5.1"
 }
+
 
 @ARTICLE{Haghverdi2015-fm,
   title       = "{Diffusion maps for high-dimensional single-cell analysis of
@@ -3601,19 +3565,23 @@
                  for single-cell data is available at
                  https://www.helmholtz-muenchen.de/icb/single-cell-diffusion-map.
                  CONTACT: fbuettner.phys@gmail.com,
-                 fabian.theis@helmholtz-muenchen.deSupplementary information:
+                 fabian.theis@helmholtz-muenchen.de SUPPLEMENTARY INFORMATION:
                  Supplementary data are available at Bioinformatics online.",
   journal     = "Bioinformatics",
-  month       =  "21~" # may,
+  volume      =  31,
+  number      =  18,
+  pages       = "2989--2998",
+  month       =  "15~" # sep,
   year        =  2015,
   url         = "http://dx.doi.org/10.1093/bioinformatics/btv325",
-  keywords    = "Single-Cell",
+  language    = "en",
   issn        = "1367-4803, 1367-4811",
   pmid        = "26002886",
   doi         = "10.1093/bioinformatics/btv325"
 }
 
-@UNPUBLISHED{Campbell2016-es,
+
+@ARTICLE{Campbell2016-es,
   title    = "{Ouija: Incorporating prior knowledge in single-cell trajectory
               learning using Bayesian nonlinear factor analysis}",
   author   = "Campbell, Kieran and Yau, Christopher",
@@ -3636,12 +3604,15 @@
               approaches to pseudotime estimation.",
   journal  = "bioRxiv",
   pages    = "060442",
-  month    =  "1~" # jan,
+  month    =  "1~January" # jan,
   year     =  2016,
   url      = "http://biorxiv.org/content/early/2016/06/23/060442",
   language = "en",
   doi      = "10.1101/060442"
 }
+
+
+
 
 @ARTICLE{Vallejos2015-ww,
   title       = "{BASiCS: Bayesian Analysis of Single-Cell Sequencing Data}",
@@ -4071,4 +4042,68 @@
   pmid        = "22388286",
   doi         = "10.1038/nmeth.1923",
   pmc         = "PMC3322381"
+}
+
+
+@ARTICLE{Lun2016-uj,
+  title    = "{A step-by-step workflow for low-level analysis of single-cell
+              RNA-seq data}",
+  author   = "Lun, Aaron T L and McCarthy, Davis J and Marioni, John C",
+  abstract = "Single-cell RNA sequencing (scRNA-seq) is widely used to profile
+              the transcriptome of individual cells. This provides biological
+              resolution that cannot be matched by bulk RNA sequencing, at the
+              cost of increased technical noise and data complexity. The
+              differences between scRNA-seq and bulk RNA-seq data mean that the
+              analysis of the former cannot be performed by recycling
+              bioinformatics pipelines for the latter. Rather, dedicated
+              single-cell methods are required at various steps to exploit the
+              cellular resolution while accounting for technical noise. This
+              article describes a computational workflow for low-level analyses
+              of scRNA-seq data, based primarily on software packages from the
+              open-source Bioconductor project. It covers basic steps including
+              quality control, data exploration and normalization, as well as
+              more complex procedures such as cell cycle phase assignment,
+              identification of highly variable and correlated genes,
+              clustering into subpopulations and marker gene detection.
+              Analyses were demonstrated on gene-level count data from several
+              publicly available data sets involving haematopoietic stem cells,
+              brain-derived cells, T-helper cells and mouse embryonic stem
+              cells. This will provide a range of usage scenarios from which
+              readers can construct their own analysis pipelines.",
+  journal  = "F1000Research",
+  volume   =  5,
+  month    =  "31~" # aug,
+  year     =  2016,
+  url      = "http://f1000research.com/articles/5-2122/v1/pdf",
+  doi      = "10.12688/f1000research.9501.1"
+}
+
+
+@ARTICLE{Filzmoser2008-sy,
+  title    = "{Outlier identification in high dimensions}",
+  author   = "Filzmoser, Peter and Maronna, Ricardo and Werner, Mark",
+  abstract = "A computationally fast procedure for identifying outliers is
+              presented that is particularly effective in high dimensions. This
+              algorithm utilizes simple properties of principal components to
+              identify outliers in the transformed space, leading to
+              significant computational advantages for high-dimensional data.
+              This approach requires considerably less computational time than
+              existing methods for outlier detection, and is suitable for use
+              on very large data sets. It is also capable of analyzing the data
+              situation commonly found in certain biological applications in
+              which the number of dimensions is several orders of magnitude
+              larger than the number of observations. The performance of this
+              method is illustrated on real and simulated data with dimension
+              ranging in the thousands.",
+  journal  = "Computational statistics \& data analysis",
+  volume   =  52,
+  number   =  3,
+  pages    = "1694--1711",
+  month    =  "1~" # jan,
+  year     =  2008,
+  url      = "http://www.sciencedirect.com/science/article/pii/S0167947307002204",
+  keywords = "Outlier identification; Robust estimators; High dimension; Robust
+              principal components",
+  issn     = "0167-9473",
+  doi      = "10.1016/j.csda.2007.05.018"
 }

@@ -32,12 +32,6 @@ Angerer, P., Haghverdi, L., B{\"{u}}ttner, M., Theis, F.~J., Marr, C., and
 \newblock {destiny: diffusion maps for large-scale single-cell data in R}.
 \newblock {\em Bioinformatics\/}.
 
-\bibitem[Bacher and Kendziorski(2016)Bacher and Kendziorski]{Bacher2016-ay}
-Bacher, R. and Kendziorski, C. (2016).
-\newblock {Design and computational analysis of single-cell RNA-sequencing
-  experiments}.
-\newblock {\em Genome biology\/}, {\bf 17}(1), 1--14.
-
 \bibitem[Bendall {\em et~al.}(2014)Bendall, Davis, Amir, Tadmor, Simonds, Chen,
   Shenfeld, Nolan, and Pe'er]{Bendall2014-gf}
 Bendall, S.~C., Davis, K.~L., Amir, E.-A.~D., Tadmor, M.~D., Simonds, E.~F.,
@@ -80,12 +74,7 @@ Bullard, J.~H., Purdom, E.~A., Hansen, K.~D., and Dudoit, S. (2010).
 Campbell, K. and Yau, C. (2016).
 \newblock {Ouija: Incorporating prior knowledge in single-cell trajectory
   learning using Bayesian nonlinear factor analysis}.
-
-\bibitem[Campbell {\em et~al.}(2015)Campbell, Ponting, and
-  Webber]{Campbell2015-nj}
-Campbell, K., Ponting, C.~P., and Webber, C. (2015).
-\newblock {Laplacian eigenmaps and principal curves for high resolution
-  pseudotemporal ordering of single-cell RNA-seq profiles}.
+\newblock {\em bioRxiv\/}, page 060442.
 
 \bibitem[Chikina {\em et~al.}(2015)Chikina, Zaslavsky, and
   Sealfon]{Chikina2015-lq}
@@ -93,12 +82,6 @@ Chikina, M., Zaslavsky, E., and Sealfon, S.~C. (2015).
 \newblock {CellCODE: a robust latent variable approach to differential
   expression analysis for heterogeneous cell populations}.
 \newblock {\em Bioinformatics\/}, {\bf 31}(10), 1584--1591.
-
-\bibitem[Delmans and Hemberg(2016)Delmans and Hemberg]{Delmans2016-qc}
-Delmans, M. and Hemberg, M. (2016).
-\newblock {Discrete distributional differential expression (D(3)E) - a tool for
-  gene expression analysis of single-cell RNA-seq data}.
-\newblock {\em BMC bioinformatics\/}, {\bf 17}(1), 110.
 
 \bibitem[Ding {\em et~al.}(2015)Ding, Zheng, Zhu, Li, Jia, Ai, Wildberg, and
   Wang]{Ding2015-jv}
@@ -115,6 +98,13 @@ Fan, J., Salathia, N., Liu, R., Kaeser, G.~E., Yung, Y.~C., Herman, J.~L.,
 \newblock {Characterizing transcriptional heterogeneity through pathway and
   gene set overdispersion analysis}.
 \newblock {\em Nature methods\/}, {\bf 13}(3), 241--244.
+
+\bibitem[Filzmoser {\em et~al.}(2008)Filzmoser, Maronna, and
+  Werner]{Filzmoser2008-sy}
+Filzmoser, P., Maronna, R., and Werner, M. (2008).
+\newblock {Outlier identification in high dimensions}.
+\newblock {\em Computational statistics \& data analysis\/}, {\bf 52}(3),
+  1694--1711.
 
 \bibitem[Finak {\em et~al.}(2015)Finak, McDavid, Yajima, Deng, Gersuk, Shalek,
   Slichter, Miller, McElrath, Prlic, Linsley, and Gottardo]{Finak2015-rd}
@@ -150,7 +140,7 @@ Guo, M., Wang, H., Steven~Potter, S., Whitsett, J.~A., and Xu, Y. (2015).
 Haghverdi, L., Buettner, F., and Theis, F.~J. (2015).
 \newblock {Diffusion maps for high-dimensional single-cell analysis of
   differentiation data}.
-\newblock {\em Bioinformatics\/}.
+\newblock {\em Bioinformatics\/}, {\bf 31}(18), 2989--2998.
 
 \bibitem[Haghverdi {\em et~al.}(2016)Haghverdi, B{\"{u}}ttner, Alexander~Wolf,
   Buettner, and Theis]{Haghverdi2016-is}
@@ -170,6 +160,7 @@ Hebenstreit, D. and Teichmann, S.~A. (2011).
 Hicks, S.~C., Teng, M., and Irizarry, R.~A. (2015).
 \newblock {On the widespread and critical impact of systematic bias and batch
   effects in single-cell RNA-Seq data}.
+\newblock {\em bioRxiv\/}, page 025528.
 
 \bibitem[Huber {\em et~al.}(2015)Huber, Carey, Gentleman, Anders, Carlson,
   Carvalho, Bravo, Davis, Gatto, Girke, Gottardo, Hahne, Hansen, Irizarry,
@@ -233,6 +224,7 @@ Kiselev, V.~Y., Kirschner, K., Schaub, M.~T., Andrews, T., Chandra, T.,
   Natarajan, K.~N., Reik, W., Barahona, M., Green, A.~R., and Hemberg, M.
   (2016).
 \newblock {SC3 - consensus clustering of single-cell RNA-Seq data}.
+\newblock {\em bioRxiv\/}, page 036558.
 
 \bibitem[Korthauer {\em et~al.}(2015)Korthauer, Chu, Newton, Li, Thomson,
   Stewart, and Kendziorski]{Korthauer2015-wg}
@@ -240,12 +232,7 @@ Korthauer, K.~D., Chu, L.-F., Newton, M.~A., Li, Y., Thomson, J., Stewart, R.,
   and Kendziorski, C. (2015).
 \newblock {scDD: A statistical approach for identifying differential
   distributions in single-cell RNA-seq experiments}.
-
-\bibitem[Krijthe(2015)Krijthe]{Krijthe2015-is}
-Krijthe, J. (2015).
-\newblock {Rtsne: T-Distributed Stochastic Neighbor Embedding using Barnes-Hut
-  Implementation}.
-\newblock {\em 0.10, URL http://CRAN. R-project. org/package= Rtsne\/}.
+\newblock {\em bioRxiv\/}, page 035501.
 
 \bibitem[Langmead and Salzberg(2012)Langmead and Salzberg]{Langmead2012-yc}
 Langmead, B. and Salzberg, S.~L. (2012).
@@ -270,7 +257,7 @@ Leek, J.~T., Scharpf, R.~B., Bravo, H.~C., Simcha, D., Langmead, B., Johnson,
   W.~E., Geman, D., Baggerly, K., and Irizarry, R.~A. (2010).
 \newblock {Tackling the widespread and critical impact of batch effects in
   high-throughput data}.
-\newblock {\em Nature Publishing Group\/}, {\bf 11}(10), 733--739.
+\newblock {\em Nature reviews. Genetics\/}, {\bf 11}(10), 733--739.
 
 \bibitem[Liao {\em et~al.}(2014)Liao, Smyth, and Shi]{Liao2014-ui}
 Liao, Y., Smyth, G.~K., and Shi, W. (2014).
@@ -278,8 +265,14 @@ Liao, Y., Smyth, G.~K., and Shi, W. (2014).
   sequence reads to genomic features}.
 \newblock {\em Bioinformatics\/}, {\bf 30}(7), 923--930.
 
-\bibitem[Lun {\em et~al.}(2016)Lun, Bach, and Marioni]{Lun2016-sk}
-Lun, A. T.~L., Bach, K., and Marioni, J.~C. (2016).
+\bibitem[Lun {\em et~al.}(2016a)Lun, McCarthy, and Marioni]{Lun2016-uj}
+Lun, A. T.~L., McCarthy, D.~J., and Marioni, J.~C. (2016a).
+\newblock {A step-by-step workflow for low-level analysis of single-cell
+  RNA-seq data}.
+\newblock {\em F1000Research\/}, {\bf 5}.
+
+\bibitem[Lun {\em et~al.}(2016b)Lun, Bach, and Marioni]{Lun2016-sk}
+Lun, A. T.~L., Bach, K., and Marioni, J.~C. (2016b).
 \newblock {Pooling across cells to normalize single-cell RNA sequencing data
   with many zero counts}.
 \newblock {\em Genome biology\/}, {\bf 17}(1), 75.
@@ -295,10 +288,11 @@ Macosko, E.~Z., Basu, A., Satija, R., Nemesh, J., Shekhar, K., Goldman, M.,
   Using Nanoliter Droplets}.
 \newblock {\em Cell\/}, {\bf 161}(5), 1202--1214.
 
-\bibitem[Patro {\em et~al.}(2015)Patro, Duggal, and Kingsford]{Patro2015-jf}
-Patro, R., Duggal, G., and Kingsford, C. (2015).
-\newblock {Salmon: Accurate, Versatile and Ultrafast Quantification from
-  RNA-seq Data using Lightweight-Alignment}.
+\bibitem[Patro {\em et~al.}(2016)Patro, Duggal, Love, Irizarry, and
+  Kingsford]{Patro2016-rs}
+Patro, R., Duggal, G., Love, M.~I., Irizarry, R.~A., and Kingsford, C. (2016).
+\newblock {Salmon provides accurate, fast, and bias-aware transcript expression
+  estimates using dual-phase inference}.
 \newblock {\em bioRxiv\/}.
 
 \bibitem[Risso {\em et~al.}(2014)Risso, Ngai, Speed, and Dudoit]{Risso2014-np}
@@ -334,7 +328,7 @@ Scialdone, A., Natarajan, K.~N., Saraiva, L.~R., Proserpio, V., Teichmann,
   S.~A., Stegle, O., Marioni, J.~C., and Buettner, F. (2015).
 \newblock {Computational assignment of cell-cycle stage from single-cell
   transcriptome data}.
-\newblock {\em Methods\/}.
+\newblock {\em Methods\/}, {\bf 85}, 54--61.
 
 \bibitem[Scialdone {\em et~al.}(2016)Scialdone, Tanaka, Jawaid, Moignard,
   Wilson, Macaulay, Marioni, and G{\"{o}}ttgens]{Scialdone2016-oa}
@@ -342,7 +336,7 @@ Scialdone, A., Tanaka, Y., Jawaid, W., Moignard, V., Wilson, N.~K., Macaulay,
   I.~C., Marioni, J.~C., and G{\"{o}}ttgens, B. (2016).
 \newblock {Resolving early mesoderm diversification through single-cell
   expression profiling}.
-\newblock {\em Nature\/}.
+\newblock {\em Nature\/}, {\bf 535}(7611), 289--293.
 
 \bibitem[Shalek {\em et~al.}(2013)Shalek, Satija, Adiconis, Gertner, Gaublomme,
   Raychowdhury, Schwartz, Yosef, Malboeuf, Lu, Trombetta, Gennert, Gnirke,
@@ -386,13 +380,6 @@ Trapnell, C., Cacchiarelli, D., Grimsby, J., Pokharel, P., Li, S., Morse, M.,
   pseudotemporal ordering of single cells}.
 \newblock {\em Nature biotechnology\/}, {\bf 32}(4), 381--386.
 
-\bibitem[Tung {\em et~al.}(2016)Tung, Blischak, Hsiao, Knowles, Burnett,
-  Pritchard, and Gilad]{Tung2016-jy}
-Tung, P.-Y., Blischak, J.~D., Hsiao, C., Knowles, D.~A., Burnett, J.~E.,
-  Pritchard, J.~K., and Gilad, Y. (2016).
-\newblock {Batch effects and the effective design of single-cell gene
-  expression studies}.
-
 \bibitem[Vallejos {\em et~al.}(2015)Vallejos, Marioni, and
   Richardson]{Vallejos2015-ww}
 Vallejos, C.~A., Marioni, J.~C., and Richardson, S. (2015).
@@ -418,7 +405,7 @@ Van~der Maaten, L. and Hinton, G. (2008).
 Vu, T.~N., Wills, Q.~F., Kalari, K.~R., Niu, N., Wang, L., Rantalainen, M., and
   Pawitan, Y. (2016).
 \newblock {Beta-Poisson model for single-cell RNA-seq data analyses}.
-\newblock {\em Bioinformatics\/}.
+\newblock {\em Bioinformatics\/}, {\bf 32}(14), 2128--2135.
 
 \bibitem[Wickham(2016)Wickham]{Wickham2016-dc}
 Wickham, H. (2016).

@@ -34,6 +34,19 @@ maps for plotting; \emph{parallel} for parallel computation; \emph{matrixStats} 
 \emph{shiny} \citep{Chang2016-of} and \emph{shinydashboard} \citep{Chang2015-bn} for intuitive and interactive data visualisation. Calling the \verb|scater_gui| function from within an R session opens up the GUI in a web browser.
 
 
+\section*{Entry points for third-party tools from \emph{scater}}
+
+The \emph{scater} package serves to prepare data for a wide variety of downstream analyses with third-party tools. Given the diverse nature of analyses that can be done with scRNA-seq data, the entry points for various third-party tools in terms of data preparation and transformation/format can vary. Below we discuss entry points from \emph{scater} into example third-party tools representing major categories of downstream analysis.
+
+\paragraph{Differential expression analysis with \emph{scde} or \emph{edgeR}} Differential expression analysis tools for RNA-seq data, including \emph{scde} and \emph{edgeR} take raw counts as input data and can handle known batch effects in their statistical models. Therefore, the upstream data processing with \emph{scater} is straight-forward: QC on cells and genes should be carried out with \emph{scater} as usual, and the count data supplied to the DE tool. Accessing the count matrix is as simple as applying the counts() function to an SCESet object. For an \emph{edgeR} analysis, size-factors computed with \emph{scran} should also be supplied, and the convertTo function from \emph{scran} makes it very easy to convert an SCESet object from a \emph{scater} workflow to a DGEList object needed for an \emph{edgeR} analysis.
+
+\paragraph{Clustering with \emph{SC3}} Clustering results can be negatively impacted by the inclusion of poor quality cells, so QC of cells and genes as usual with \emph{scater} is necessary before supplying data to a clustering algorithm. In general, clustering algorithms to not account internally for batch effects and similar, so it will often be desirable to normalise expression data with size factors and regress out known batch effects or other technical effects. In the case of clustering with \emph{SC3}, a QC'd and normalised SCESet object can be supplied directly to the sc3 function for clustering.
+
+\paragraph{Pseudotime estimation with \emph{monocle}} As with clustering, current pseudotime estimation methods do not internally account for batch effects. Thus, before applying pseudotime tools, data should be QC'd with \emph{scater} to remove problematic cells and genes. Size-factor normalisation of data is advisable, and the normaliseExprs function in \emph{scater} can be used to regress out known batch or technical effects. Once a filtered and normalised SCESet object has been obtained, the convertTo function in \emph{scran} can be used to convert the SCESet object to a CellDataSet object used in \emph{monocle}.
+
+The three examples above demonstrate that the QC steps in \emph{scater} are necessary before any downstream analyses. The entry point from \emph{scater} varies for different third-party tools, but is nevertheless straight forward in most cases.
+
+
 \section*{Supplementary Figures}
 
 
