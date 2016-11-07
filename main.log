@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.3)  7 NOV 2016 00:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.3)  7 NOV 2016 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -398,19 +398,20 @@ LaTeX Font Info:    Try loading font information for LY1+pcr on input line 59.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ly1/ly1pcr.fd
 File: ly1pcr.fd 2001/02/01 font definitions for LY1/pcr using Berry names.
 )
-Underfull \hbox (badness 1478) in paragraph at lines 59--60
-\LY1/ptm/m/n/8 Reads in fastq format were aligned using TopHat2 v2.0.12 (Kim
+Underfull \hbox (badness 2020) in paragraph at lines 59--60
+\LY1/ptm/m/n/8 Reads in fastq format were aligned []with[] TopHat2 v2.0.12 (Kim
+
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 59--60
-\LY1/ptm/m/it/8 et al.\LY1/ptm/m/n/8 , 2013) using Bowtie2 v2.2.3.0 (Langmead a
-nd Salzberg,
+Underfull \hbox (badness 2846) in paragraph at lines 59--60
+\LY1/ptm/m/it/8 et al.\LY1/ptm/m/n/8 , 2013), using Bowtie2 v2.2.3.0 (Langmead 
+and Salzberg,
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 59--60
-\LY1/ptm/m/n/8 2012) as the core-mapping engine ([]\LY1/pcr/m/n/8 --mate-inner-
+Underfull \hbox (badness 1852) in paragraph at lines 59--60
+\LY1/ptm/m/n/8 2012) as the core mapping engine ([]\LY1/pcr/m/n/8 --mate-inner-
 dist 190
  []
 
@@ -432,11 +433,11 @@ t
  []
 
 Package epstopdf Info: Source file: <scater_qc_workflow.eps>
-(epstopdf)                    date: 2016-10-26 05:15:26
-(epstopdf)                    size: 267577 bytes
+(epstopdf)                    date: 2016-11-07 13:28:36
+(epstopdf)                    size: 271853 bytes
 (epstopdf)             Output file: <scater_qc_workflow-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-26 05:15:37
-(epstopdf)                    size: 71369 bytes
+(epstopdf)                    date: 2016-11-07 13:28:43
+(epstopdf)                    size: 72819 bytes
 (epstopdf)             Command: <repstopdf --outfile=scater_qc_workflow-eps-con
 verted-to.pdf scater_qc_workflow.eps>
 (epstopdf)             \includegraphics on input line 79.
@@ -477,7 +478,7 @@ Package epstopdf Info: Source file: <figure3_alt.eps>
 (epstopdf)                    size: 617659 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure3_alt-eps-converted-
 to.pdf figure3_alt.eps>
-(epstopdf)             \includegraphics on input line 116.
+(epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
 
 <figure3_alt-eps-converted-to.pdf, id=56, 958.58125pt x 456.70625pt>
@@ -485,16 +486,16 @@ File: figure3_alt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure3_alt-eps-converted-to.pdf>
 Package pdftex.def Info: figure3_alt-eps-converted-to.pdf used on input line 11
-6.
+5.
 (pdftex.def)             Requested size: 486.0pt x 231.55122pt.
 
 
 LaTeX Font Warning: Font shape `LY1/phb/bx/n' undefined
-(Font)              using `LY1/phb/m/n' instead on input line 117.
+(Font)              using `LY1/phb/m/n' instead on input line 116.
 
 
 LaTeX Font Warning: Font shape `LY1/phb/bx/it' undefined
-(Font)              using `LY1/phb/bx/n' instead on input line 117.
+(Font)              using `LY1/phb/bx/n' instead on input line 116.
 
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
@@ -513,7 +514,7 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
  []
 
 [4 <./figure3_alt-eps-converted-to.pdf>]
-Underfull \hbox (badness 2564) in paragraph at lines 185--192
+Underfull \hbox (badness 2564) in paragraph at lines 173--180
 []\LY1/ptm/m/n/8 We also introduce the plotPhenoData function for convenient
  []
 
@@ -525,16 +526,16 @@ Package epstopdf Info: Source file: <figure4.eps>
 (epstopdf)                    size: 513495 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure4-eps-converted-to.p
 df figure4.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
 <figure4-eps-converted-to.pdf, id=162, 1160.335pt x 576.1525pt>
 File: figure4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure4-eps-converted-to.pdf>
-Package pdftex.def Info: figure4-eps-converted-to.pdf used on input line 196.
+Package pdftex.def Info: figure4-eps-converted-to.pdf used on input line 184.
 (pdftex.def)             Requested size: 486.0pt x 241.31424pt.
 
-Underfull \hbox (badness 1077) in paragraph at lines 213--228
+Underfull \hbox (badness 1077) in paragraph at lines 201--216
 \LY1/ptm/m/n/8 components analysis; plotTSNE, to perform t-distributed stochast
 ic
  []
@@ -553,13 +554,13 @@ Package epstopdf Info: Source file: <figure5.eps>
 (epstopdf)                    size: 210643 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure5-eps-converted-to.p
 df figure5.eps>
-(epstopdf)             \includegraphics on input line 301.
+(epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
  <figure5-eps-converted-to.pdf, id=166, 863.225pt x 186.6975pt>
 File: figure5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure5-eps-converted-to.pdf>
-Package pdftex.def Info: figure5-eps-converted-to.pdf used on input line 301.
+Package pdftex.def Info: figure5-eps-converted-to.pdf used on input line 284.
 (pdftex.def)             Requested size: 486.0pt x 105.11108pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -573,7 +574,7 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
  []
 
 [6 <./figure4-eps-converted-to.pdf>]
-Underfull \hbox (badness 1092) in paragraph at lines 384--391
+Underfull \hbox (badness 1092) in paragraph at lines 367--374
 \LY1/ptm/m/n/8 background, enabling them to process raw reads into high-quality
 
  []
@@ -679,11 +680,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  3784 strings out of 493089
  47861 string characters out of 6134843
- 169654 words of memory out of 5000000
+ 169655 words of memory out of 5000000
  7165 multiletter control sequences out of 15000+600000
  54966 words of font info for 96 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 38i,10n,28p,1744b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,28p,1754b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy9.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
@@ -698,7 +699,7 @@ e1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /helvetic/uhvro8ac.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 1583404 bytes).
+Output written on main.pdf (8 pages, 1584887 bytes).
 PDF statistics:
  308 PDF objects out of 1000 (max. 8388607)
  114 compressed objects within 2 object streams
